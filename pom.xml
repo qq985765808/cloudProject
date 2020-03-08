@@ -13,6 +13,7 @@
       <module>cloud-eureka-client9003</module>
       <module>cloud-eureka-ribbon9051</module>
       <module>cloud-eureka-feign9061</module>
+      <module>cloud-eureka-zuul8080</module>
     </modules>
 
     <packaging>pom</packaging>

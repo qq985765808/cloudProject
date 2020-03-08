@@ -10,6 +10,7 @@
         <module name="cloud-eureka-feign9061" />
         <module name="cloud-eureka-ribbon9051" />
         <module name="cloud-eureka-server9002" />
+        <module name="cloud-eureka-zuul8080" />
         <module name="cloud-provider-payment8001" />
       </profile>
     </annotationProcessing>
