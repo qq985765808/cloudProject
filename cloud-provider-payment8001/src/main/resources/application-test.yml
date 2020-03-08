@@ -1,0 +1,108 @@
+spring:
+  application:
+    name: spring-cloud-eureka-test
+  jpa:
+    show-sql: true
+    database: mysql
+    generate-ddl: true
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      naming:
+        #解决使用其他库的表时候，把小数点变成下划线，导致sql无法成功执行。
+        #这是由于物理命名策略引起的，大写字母变小写，加_下划线（hibernate5以上高版本）
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    #ddl-auto: update
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/order?characterEncoding=utf-8&serverTimezone=GMT%2B8
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      auto-commit: true
+      minimum-idle: 2
+      idle-timeout: 60000
+      connection-timeout: 30000
+      max-lifetime: 1800000
+      pool-name: DatebookHikariCP
+  #thymeleaf模板配置
+  thymeleaf:
+    cache: false
+    enabled: true
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: LEGACYHTML5
+    encoding: UTF-8
+    content-type: text/html
+  resources:
+    chain:
+      strategy:
+        content:
+          enabled: true
+          paths: /**
+
+  #静态资源路径
+  mvc:
+    static-path-pattern: /static/**
+
+  #redis配置参数
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    password:
+    jedis:
+      pool:
+        max-active: 30
+        max-wait: -1ms
+        max-idle: 16
+        min-idle: 0
+    timeout: 3000ms
+  #mongodb配置参数
+  data:
+    mongodb:
+      host: 127.0.0.1
+      port: 27017
+      uri: mongodb://127.0.0.1/test
+      repositories:
+        type: auto
+      #mongodb plus
+      option:
+        socket-keep-alive: true
+        max-connection-idle-time: 60000
+        connect-timeout: 36000
+        min-connection-per-host: 5
+        threads-allowed-to-block-for-connection-multiplier: 5
+        max-wait-time: 120000
+        socket-timeout: 0
+        max-connection-life-time: 0
+        heartbeat-connect-timeout: 36000
+        heartbeat-socket-timeout: 36000
+        min-heartbeat-frequency: 5
+        heartbeat-frequency: 10
+
+#eureka服务提供
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+
+#配置日志文件参数
+logging:
+  file:
+    path: F:/mylog/cloudlog
+  level:
+    org:
+      springframework:
+        security: DEBUG
+    hibernate: DEBUG
+    com:
+      looedu:
+        mapper: debug
+
+

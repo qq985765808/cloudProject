@@ -1,0 +1,23 @@
+
+spring:
+  application:
+    name: spring-cloud-eureka-feign
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+
+server:
+  port: 9061
+
+#开启熔断器
+feign:
+  hystrix:
+    enabled: true
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9002/eureka/
