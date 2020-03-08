@@ -1,4 +1,7 @@
+
 spring:
+  # freemarker:
+  #prefer-file-system-access: false
   application:
     name: spring-cloud-eureka-test
   jpa:
@@ -80,16 +83,6 @@ spring:
         heartbeat-socket-timeout: 36000
         min-heartbeat-frequency: 5
         heartbeat-frequency: 10
-
-#eureka服务提供
-eureka:
-  instance:
-    hostname: localhost
-  client:
-    registerWithEureka: false
-    fetchRegistry: false
-    serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
 
 
 #配置日志文件参数
