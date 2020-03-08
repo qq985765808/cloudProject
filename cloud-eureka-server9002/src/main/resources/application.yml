@@ -16,3 +16,12 @@ eureka:
     fetchRegistry: false
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+#配置日志文件参数
+logging:
+  file:
+    path: F:/mylog/eurekaServer9002Log
+  level:
+    org:
+      springframework:
+        security: DEBUG

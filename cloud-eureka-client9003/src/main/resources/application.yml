@@ -1,7 +1,7 @@
 
 spring:
   application:
-    name: spring-cloud-rureka-client
+    name: spring-cloud-eureka-client
 
 server:
   port: 9003
@@ -10,3 +10,12 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:9002/eureka/
+
+#配置日志文件参数
+logging:
+  file:
+    path: F:/mylog/eurekaClient9003Log
+  level:
+    org:
+      springframework:
+        security: DEBUG

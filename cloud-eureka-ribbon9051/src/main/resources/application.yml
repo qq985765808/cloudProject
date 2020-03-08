@@ -16,3 +16,12 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:9002/eureka/
+
+#配置日志文件参数
+logging:
+  file:
+    path: F:/mylog/ribbon9051Log
+  level:
+    org:
+      springframework:
+        security: DEBUG

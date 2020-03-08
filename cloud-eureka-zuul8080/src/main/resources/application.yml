@@ -21,4 +21,11 @@ zuul:
       path: /api/feign/**
       serviceId: spring-cloud-eureka-feign
 
-
+#配置日志文件参数
+logging:
+  file:
+    path: F:/mylog/zuul8080Log
+  level:
+    org:
+      springframework:
+        security: DEBUG
