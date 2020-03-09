@@ -16,6 +16,9 @@
       <module>cloud-eureka-zuul8080</module>
       <module>cloud-config-server8888</module>
       <module>cloud-config-client8889</module>
+      <module>cloud-zipkin-admin</module>
+      <module>cloud-zipkin-admin-server9084</module>
+      <module>cloud-zipkin-admin-client9085</module>
     </modules>
 
     <packaging>pom</packaging>
