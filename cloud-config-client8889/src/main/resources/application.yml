@@ -1,0 +1,23 @@
+
+#  spring.cloud.config.uri：配置服务中心的网址
+#  spring.cloud.config.name：配置文件名称的前缀
+#  spring.cloud.config.label：配置仓库的分支
+#  spring.cloud.config.profile：配置文件的环境标识(dev  test  prod...)
+
+spring:
+  application:
+    name: spring-cloud-config-client
+  cloud:
+    config:
+      uri: http://localhost:8888
+      name: applicatinon
+      label: master
+      profile: test
+
+server:
+  port: 8889
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9002/eureka/
