@@ -1,3 +1,4 @@
+
 #spring.cloud.config.label：配置仓库的分支
 #spring.cloud.config.server.git.uri：配置 Git 仓库地址（GitHub、GitLab、码云 ...）
 #spring.cloud.config.server.git.search-paths：配置仓库路径（存放配置文件的目录）
@@ -26,3 +27,6 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:9002/eureka/
+
+
+
