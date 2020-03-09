@@ -4,7 +4,7 @@ spring:
     name: spring-cloud-eureka-client
 
 server:
-  port: 9003
+  port: 9004
 
 eureka:
   client:

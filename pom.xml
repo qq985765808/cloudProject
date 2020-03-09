@@ -14,6 +14,7 @@
       <module>cloud-eureka-ribbon9051</module>
       <module>cloud-eureka-feign9061</module>
       <module>cloud-eureka-zuul8080</module>
+      <module>cloud-config-server8666</module>
     </modules>
 
     <packaging>pom</packaging>
@@ -134,7 +135,7 @@
 
 
   <build>
-    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+ <!--   <pluginManagement>&lt;!&ndash; lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) &ndash;&gt;
       <plugins>
 
         <plugin>
@@ -146,50 +147,91 @@
           <version>3.0.0</version>
         </plugin>
 
-        <!--compiler-->
+        &lt;!&ndash;compiler&ndash;&gt;
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-compiler-plugin</artifactId>
           <configuration>
-            <source>1.8</source>
-            <target>1.8</target>
+            <target>${maven.compiler.target}</target>
+            <source>${maven.compiler.soucer}</source>
+            <encoding>UTF-8</encoding>
           </configuration>
         </plugin>
 
-        <!-- resource -->
+        &lt;!&ndash; resource &ndash;&gt;
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-resources-plugin</artifactId>
         </plugin>
 
-        <!-- install -->
+        &lt;!&ndash; install &ndash;&gt;
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-install-plugin</artifactId>
         </plugin>
 
-        <!-- clean -->
+        &lt;!&ndash; clean &ndash;&gt;
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-clean-plugin</artifactId>
         </plugin>
 
-        <!-- ant -->
+        &lt;!&ndash; ant &ndash;&gt;
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-antrun-plugin</artifactId>
         </plugin>
 
-        <!-- dependency -->
+        &lt;!&ndash; dependency &ndash;&gt;
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-dependency-plugin</artifactId>
         </plugin>
 
+        <plugin>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-maven-plugin</artifactId>
+          <version>${spring.boot.version}</version>
+          <executions>
+            <execution>
+              <goals>
+                <goal>build-info</goal>
+              </goals>
+            </execution>
+          </executions>
+        </plugin>
+
+
 
       </plugins>
-    </pluginManagement>
+    </pluginManagement>-->
     <plugins>
+
+      <!--compiler-->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <target>${maven.compiler.target}</target>
+          <source>${maven.compiler.soucer}</source>
+          <encoding>UTF-8</encoding>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+        <version>${spring.boot.version}</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>build-info</goal>
+              <goal>repackage</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-site-plugin</artifactId>
