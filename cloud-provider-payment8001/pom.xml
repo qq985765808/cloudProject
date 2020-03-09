@@ -111,7 +111,7 @@
     <build>
         <finalName>payment8001</finalName>
         <plugins>
-
+            <!-- 是解决maven打包的问题,使用boot-maven -->
             <!--compiler-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
