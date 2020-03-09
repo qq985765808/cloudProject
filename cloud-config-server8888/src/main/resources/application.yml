@@ -14,7 +14,7 @@ spring:
       server:
         git:
           uri: https://github.com/qq985765808/cloudProject
-          search-paths: cloud-config-server8666/src/main/resources
+          search-paths: cloud-config-server8888/src/main/resources
           username:
           password:
 
