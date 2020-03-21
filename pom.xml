@@ -48,6 +48,9 @@
     <mongodb.version>2.1.4.RELEASE</mongodb.version>
     <mongodb.plus.version>1.0.0.RELEASE</mongodb.plus.version>
 
+
+
+    <!--boot   cloud  jar  version-->
     <spring.boot.version>2.2.2.RELEASE</spring.boot.version>
     <spring.cloud.version>Hoxton.SR1</spring.cloud.version>
     <spring.cloud.alibaba.version>2.1.0.RELEASE</spring.cloud.alibaba.version>
@@ -218,7 +221,7 @@
         <configuration>
           <target>${maven.compiler.target}</target>
           <source>${maven.compiler.soucer}</source>
-          <encoding>UTF-8</encoding>
+          <encoding>${project.build.sourceEncoding}</encoding>
         </configuration>
       </plugin>
 
@@ -243,6 +246,8 @@
           <locales>en,fr</locales>
         </configuration>
       </plugin>
+
+
     </plugins>
   </build>
 
