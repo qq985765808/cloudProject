@@ -10,8 +10,8 @@ import zipkin2.server.internal.EnableZipkinServer;
 @EnableEurekaClient
 @EnableZipkinServer
 public class CloudZipkinAdminApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(CloudZipkinAdminApplication.class,args);
     }
+
 }

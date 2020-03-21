@@ -28,6 +28,8 @@ public class RedisService {
         vo.set(key, value);
     }
 
+
+
     /**
      * 设置过期时间<br>
      *  timeout:设置多少秒,unit是时间单位（年月日时分秒，具体可看此类）
@@ -103,6 +105,8 @@ public class RedisService {
 
     /**
      *  获取key键对应的值
+     *
+
      * */
     public  Object get(String key,Object hashKey){
         HashOperations<String, Object, Object> hashOperations = redisTemplate.opsForHash();
@@ -116,5 +120,14 @@ public class RedisService {
         return redisTemplate.opsForHash().size(key);
     }
 
+    /**
+     * 过期锁
+     * @param key
+     * @param timeout
+     * @param unit
+     * */
+    public boolean expire(String key, Long timeout, TimeUnit unit){
+        return redisTemplate.expire(key,timeout,unit);
+    }
 
 }

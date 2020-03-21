@@ -36,7 +36,9 @@ spring:
     suffix: .html
     mode: LEGACYHTML5
     encoding: UTF-8
-    content-type: text/html
+    servlet:
+      content-type: text/html
+    #content-type: text/html
   resources:
     chain:
       strategy:
