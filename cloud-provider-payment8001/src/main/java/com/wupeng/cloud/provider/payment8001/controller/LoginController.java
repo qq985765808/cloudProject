@@ -10,7 +10,7 @@ public class LoginController {
 
     @RequestMapping
     public String index(Model model){
-        model.addAttribute("key","ll");
+        model.addAttribute("username","吴鹏");
         return "index";
     }
 

@@ -38,22 +38,18 @@ public  class PassInterceptor implements HandlerInterceptor{
     public  boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
             throws Exception {
         String url = request.getRequestURI();
-        //System.out.println(url);
         log.info("请求路径为："+url);
-        //log.info("访问IP为："+ NetWorkUtil.getIpAddress(request));
-        // url.indexOf("getIndex")==-1
         if(url!=null ){
             try{
-                if( passInterceptor.redisService.get("userLogin")==null){
-                    //response.sendRedirect("/project/index/getIndex"); //war包版本的路径
-                    //response.getOutputStream().write("Ne rajtigita".getBytes());
+                if( passInterceptor.redisService.get("userLogin").toString() == null){
+                    //response.sendRedirect("/project/index"); //war包版本的路径
                     response.sendRedirect("/index");
                     return false;
                 }
                 return   true;
             }catch (Exception e){
                 e.printStackTrace();
-                //response.sendRedirect("/project/index/getIndex");//war包版本的路径
+                //response.sendRedirect("/project/index");//war包版本的路径
                 response.sendRedirect("/index");
                 return  false;
             }
