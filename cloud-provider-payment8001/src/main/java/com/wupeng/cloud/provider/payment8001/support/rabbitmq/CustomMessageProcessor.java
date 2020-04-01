@@ -12,7 +12,7 @@ import java.util.UUID;
  * 自定义amqp消息处理类
  * */
 @Component
-public class CustomMessageProcessor  implements MessagePostProcessor {
+public class CustomMessageProcessor implements MessagePostProcessor {
 
     @Override
     public Message postProcessMessage(Message message) throws AmqpException {
@@ -21,6 +21,7 @@ public class CustomMessageProcessor  implements MessagePostProcessor {
     }
     @Override
     public Message postProcessMessage(Message message,Correlation correlation) throws AmqpException {
+
         return message;
     }
 }

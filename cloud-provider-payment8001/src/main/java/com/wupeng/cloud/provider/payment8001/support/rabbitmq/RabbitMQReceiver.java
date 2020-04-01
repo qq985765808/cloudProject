@@ -23,6 +23,11 @@ public class RabbitMQReceiver implements Serializable {
         log.info("Topic1 Receive : " + msg);
     }
 
+    @RabbitListener(queues = RabbitMQConfig.TOPIC_QUEUE_3_1)
+    public void receiveTopic3(String msg) {
+        log.info("Topic3_1 Receive : " + msg);
+    }
+
     @RabbitListener(queues = RabbitMQConfig.TOPIC_QUEUE_2)
     public void receiveTopic2(String msg) {
         log.info("Topic2 Receive : " + msg);

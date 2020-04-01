@@ -12,6 +12,9 @@ import org.springframework.stereotype.Component;
 import java.io.Serializable;
 import java.util.UUID;
 
+/**
+ * rabbitmq发送者
+ * */
 @Component
 public class RabbitMQSender implements Serializable {
 

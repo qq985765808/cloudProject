@@ -29,10 +29,12 @@ public class RabbitMQConfig  implements Serializable {
 
     public static final String TOPIC_QUEUE_1 = "topic_queue_1";
     public static final String TOPIC_QUEUE_2 = "topic_queue_2";
+    public static final String TOPIC_QUEUE_3_1 = "topic_queue_3_1";
     public static final String TOPIC_EXCHANGE = "topic_exchange";
     public static final String ROUTINE_KEY_1 = "topic.key1";
-    // 可以使用通配符
+    // 可以使用通配符 *代表一个单词,  #代表多个单词
     public static final String ROUTINE_KEY_2 = "topic.*";
+    public static final String ROUTINE_KEY_3 = "topic.#";
 
     public static final String FANOUT_QUEUE_1 = "fanout_queue_1";
     public static final String FANOUT_QUEUE_2 = "fanout_queue_2";
@@ -93,6 +95,10 @@ public class RabbitMQConfig  implements Serializable {
         return new Queue(TOPIC_QUEUE_2, true);
     }
     @Bean
+    public Queue topicQueue3() {
+        return new Queue(TOPIC_QUEUE_3_1, true);
+    }
+    @Bean
     public TopicExchange topicExchange() {
         return new TopicExchange(TOPIC_EXCHANGE);
     }
@@ -103,6 +109,11 @@ public class RabbitMQConfig  implements Serializable {
     @Bean
     public Binding topicBinding2() {
         return BindingBuilder.bind(topicQueue2()).to(topicExchange()).with(ROUTINE_KEY_2);
+    }
+
+    @Bean
+    public Binding topicBinding3() {
+        return BindingBuilder.bind(topicQueue3()).to(topicExchange()).with(ROUTINE_KEY_3);
     }
 
     // Fanout模式：广播

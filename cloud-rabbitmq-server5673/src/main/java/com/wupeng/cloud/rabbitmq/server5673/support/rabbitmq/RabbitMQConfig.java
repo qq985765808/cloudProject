@@ -31,6 +31,7 @@ public class RabbitMQConfig  implements Serializable {
     public static final String ROUTINE_KEY_1 = "topic.key1";
     // 可以使用通配符
     public static final String ROUTINE_KEY_2 = "topic.*";
+    public static final String ROUTINE_KEY_3 = "topic.#";
 
     public static final String FANOUT_QUEUE_1 = "fanout_queue_1";
     public static final String FANOUT_QUEUE_2 = "fanout_queue_2";

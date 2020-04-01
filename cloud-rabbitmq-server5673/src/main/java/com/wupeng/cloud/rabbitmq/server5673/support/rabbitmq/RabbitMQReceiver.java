@@ -7,6 +7,9 @@ import org.springframework.stereotype.Component;
 
 import java.io.Serializable;
 
+/**
+ * rabbitmq消费者
+ * */
 @Component
 public class RabbitMQReceiver implements Serializable {
 
