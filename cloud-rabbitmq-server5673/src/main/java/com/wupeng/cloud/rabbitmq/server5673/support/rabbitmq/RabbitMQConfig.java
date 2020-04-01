@@ -1,19 +1,17 @@
-package com.wupeng.cloud.provider.payment8001.support.rabbitmq;
-
-import java.io.Serializable;
+package com.wupeng.cloud.rabbitmq.server5673.support.rabbitmq;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.core.*;
+import org.springframework.amqp.rabbit.connection.CachingConnectionFactory;
 import org.springframework.amqp.rabbit.connection.Connection;
+import org.springframework.amqp.rabbit.connection.ConnectionFactory;
 import org.springframework.amqp.rabbit.connection.ConnectionListener;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.amqp.rabbit.connection.CachingConnectionFactory;
-import org.springframework.amqp.rabbit.connection.ConnectionFactory;
 
-
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
