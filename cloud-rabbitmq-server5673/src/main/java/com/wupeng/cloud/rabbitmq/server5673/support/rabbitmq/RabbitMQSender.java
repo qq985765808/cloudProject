@@ -1,5 +1,6 @@
 package com.wupeng.cloud.rabbitmq.server5673.support.rabbitmq;
 
+import com.wupeng.cloud.rabbitmq.server5673.jsonObject.OrderJsonObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.core.AmqpTemplate;
@@ -37,6 +38,7 @@ public class RabbitMQSender implements Serializable {
         amqpTemplate.convertAndSend(RabbitMQConfig.TOPIC_EXCHANGE, "topic.key1", msg + "_1");
         amqpTemplate.convertAndSend(RabbitMQConfig.TOPIC_EXCHANGE, "topic.key2", msg + "_2");
     }
+
 
     public void sendFanout() {
         String msg = "FanoutMsg";

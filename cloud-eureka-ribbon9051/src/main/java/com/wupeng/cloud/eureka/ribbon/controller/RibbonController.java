@@ -18,4 +18,9 @@ public class RibbonController {
         return ribbonService.sayHi(message);
     }
 
+    @RequestMapping(value = "saveOrderQueuesInfo", method = RequestMethod.GET)
+    public String saveOrderQueuesInfo() {
+        return ribbonService.saveOrderQueuesInfo("");
+    }
+
 }

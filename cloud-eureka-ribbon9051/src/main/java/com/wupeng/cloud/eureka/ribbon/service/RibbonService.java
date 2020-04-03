@@ -16,7 +16,10 @@ public class RibbonService {
         return restTemplate.getForObject("http://SPRING-CLOUD-RUREKA-CLIENT/hi?message=" + message, String.class);
     }
 
-    public String error(String message) {
-        return "Hi，your message is :\"" + message + "\" but request error.";
-    }
+    @HystrixCommand(fallbackMethod = "error")
+    public String saveOrderQueuesInfo(String message) {
+        return restTemplate.getForObject("http://SPRING-CLOUD-RABBIITMQ/orderQueue/saveOrder" ,String.class);
+}
+
+    public String error(String message) { return "Hi，your message is :\"" + message + "\" but request error."; }
 }
