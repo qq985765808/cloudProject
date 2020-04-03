@@ -29,7 +29,7 @@ public class OrderController implements Serializable {
         Map map = new HashMap();
         OrderJsonObject orderJsonObject = new OrderJsonObject();
         if(orderJsonObject!=null){
-            amqpTemplate.convertAndSend(RabbitMQConfig.TOPIC_EXCHANGE, "topic.key2", orderJsonObject.toString());
+             amqpTemplate.convertAndSend(RabbitMQConfig.TOPIC_EXCHANGE, "topic.key2", orderJsonObject.toString());
             map.put("msg","ok");
             map.put("status",true);
         }else{

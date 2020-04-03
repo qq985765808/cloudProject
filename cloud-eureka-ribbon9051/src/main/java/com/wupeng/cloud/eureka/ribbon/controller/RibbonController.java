@@ -19,7 +19,7 @@ public class RibbonController {
     }
 
     @RequestMapping(value = "saveOrderQueuesInfo", method = RequestMethod.GET)
-    public String saveOrderQueuesInfo() {
+    public Object saveOrderQueuesInfo() {
         return ribbonService.saveOrderQueuesInfo("");
     }
 
