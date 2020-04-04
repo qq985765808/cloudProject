@@ -7,6 +7,8 @@ import org.springframework.amqp.rabbit.connection.CorrelationData;
 import org.springframework.amqp.rabbit.core.RabbitTemplate.ConfirmCallback;
 import org.springframework.stereotype.Component;
 
+import java.util.UUID;
+
 /**
  * 消息发送成功的回调
  * 需要开启
@@ -23,8 +25,8 @@ public class RabbitConfirmCallBack implements ConfirmCallback {
     public void confirm(CorrelationData correlationData, boolean ack, String cause) {
         //correlationData必须在发送的时候设置，否则将会使null，如下：
         //CorrelationData correlationData = new CorrelationData("1");
-        //rabbitTemplate.convertAndSend("OrderDispathExchange","kk",
-        //       "{\"msgId\":1,\"data\":\"测试\"}",correlationData);
+        //        //rabbitTemplate.convertAndSend("OrderDispathExchange","kk",
+        //        //       "{\"msgId\":1,\"data\":\"测试\"}",correlationData);
         if (ack){
                log.info("ack-->消息到达交换机:{}",correlationData);
         }else{
@@ -35,4 +37,10 @@ public class RabbitConfirmCallBack implements ConfirmCallback {
         log.info("造成原因: {}", cause);
 
     }
+
+
+    public  void setConfirmCallBack(CorrelationData correlationData, boolean ack, String cause){
+        this.confirm(new CorrelationData(UUID.randomUUID().toString()),ack,cause);
+    }
+
 }

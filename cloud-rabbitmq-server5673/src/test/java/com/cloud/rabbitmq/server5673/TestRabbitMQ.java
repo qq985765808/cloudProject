@@ -8,10 +8,13 @@ import com.wupeng.cloud.rabbitmq.server5673.support.rabbitmq.RabbitMQSender;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.amqp.core.AmqpTemplate;
+import org.springframework.amqp.rabbit.connection.CorrelationData;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
+
+import java.util.UUID;
 
 @SpringBootTest(classes = RabbitMQApplication.class)
 @RunWith(SpringRunner.class)
@@ -42,6 +45,11 @@ public class TestRabbitMQ {
         OrderJsonObject orderJsonObject = new OrderJsonObject();
         //receiverService.OrderConsumption(orderJsonObject.toString());
         amqpTemplate.convertAndSend(RabbitMQConfig.TOPIC_EXCHANGE, "topic.key2", orderJsonObject.toString());
+    }
+
+    @Test
+    public void testRabbitACK(){
+        rabbitTemplate.convertAndSend(RabbitMQConfig.TOPIC_EXCHANGE,RabbitMQConfig.ROUTINE_KEY_1,"test",new CorrelationData(UUID.randomUUID().toString()));
     }
 
 }

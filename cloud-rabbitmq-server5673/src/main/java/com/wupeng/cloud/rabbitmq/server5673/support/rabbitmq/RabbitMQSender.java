@@ -37,6 +37,7 @@ public class RabbitMQSender implements Serializable {
         log.info("send msg : " + msg);
         amqpTemplate.convertAndSend(RabbitMQConfig.TOPIC_EXCHANGE, "topic.key1", msg + "_1");
         amqpTemplate.convertAndSend(RabbitMQConfig.TOPIC_EXCHANGE, "topic.key2", msg + "_2");
+
     }
 
 
