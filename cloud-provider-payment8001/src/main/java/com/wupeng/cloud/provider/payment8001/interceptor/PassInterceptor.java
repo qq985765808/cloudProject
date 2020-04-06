@@ -41,16 +41,17 @@ public  class PassInterceptor implements HandlerInterceptor{
         log.info("请求路径为："+url);
         if(url!=null ){
             try{
+
                 if( passInterceptor.redisService.get("userLogin").toString() == null){
                     //response.sendRedirect("/project/index"); //war包版本的路径
-                    response.sendRedirect("/index");
+                    response.sendRedirect("/index/login");
                     return false;
                 }
                 return   true;
             }catch (Exception e){
                 e.printStackTrace();
                 //response.sendRedirect("/project/index");//war包版本的路径
-                response.sendRedirect("/index");
+                response.sendRedirect("/index/login");
                 return  false;
             }
         }

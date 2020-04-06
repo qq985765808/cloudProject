@@ -14,4 +14,21 @@ public class LoginController {
         return "index";
     }
 
+    @RequestMapping(value = "/login")
+    public String login(Model model){
+        model.addAttribute("username","吴鹏");
+        return "login";
+    }
+
+    @RequestMapping(value = "/registered")
+    public String registered(Model model){
+        model.addAttribute("username","吴鹏");
+        return "registered";
+    }
+
+    @RequestMapping(value = "/saveUser")
+    public String saveUser(Model model){
+        model.addAttribute("username","吴鹏");
+        return "registered";
+    }
 }

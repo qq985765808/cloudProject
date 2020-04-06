@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    <meta content='text/html;charset=utf-8' http-equiv='content-type'>
+    <title>注册页面</title>
+    <link th:href="@{/static/css/bootstrap.min.css}" rel="stylesheet">
+    <link rel="stylesheet" th:href="@{/static/css/login.css}" type="text/css" media="all">
+</head>
+<body>
+<div id="bg"><canvas></canvas><canvas></canvas><canvas></canvas></div>
+
+<h1>用户注册</h1>
+<div class="login">
+    <form name="userinfoform" method="post" enctype="multipart/form-data" action="/index/saveUser">
+        <input type="hidden" name="enews" value="register">
+        <input name="groupid" type="hidden" id="groupid" value="1">
+        <input name="tobind" type="hidden" id="tobind" value="0">
+        <div class="form-group"><label><i class="fa fa-user"></i>用户名</label>
+            <input class="form-control" placeholder="用户名" name="username" type="text" id="username" required=""></div>
+        <div class="form-group"><label><i class="fa fa-lock"></i>密码</label>
+            <input class="form-control" placeholder="密码" name="password" type="password" id="password" required=""></div>
+        <div class="form-group"><label><i class="fa fa-lock"></i>重复密码</label>
+            <input class="form-control" placeholder="重复密码" name="repassword" type="password" id="repassword" required=""></div>
+        <div class="form-group"><label><i class="fa fa-envelope"></i>邮箱</label>
+            <div class="parentCls">
+                <input class="form-control" placeholder="邮箱地址" name="email" type="text" id="email" required=""></div></div>
+        <div class="form-group"><label><i class="fa fa-envelope"></i>手机号码</label>
+            <div class="parentCls">
+                <input class="form-control" placeholder="手机号码" name="phoneNum" type="text" id="phoneNum" required=""></div>
+            <div id="regshowkey"><p  onclick="alert('正在获取手机短信验证码');" title="点击获取手机短信验证码">点击获取手机短信验证码</p></div>
+        </div>
+        <div class="form-group"><label><i class="fa fa-lock"></i>验证码</label>
+        <input class="form-control" placeholder="输入手机短信验证码" name="key" type="text" id="key" required="">
+        </div>
+        <div class="text-center">
+            <input class="btn btn-default" type='submit' name='Submit' value='马上注册'>
+        <input class="btn btn-default" type="button" name="button" value="登 录"></div>
+    </form></div>
+<div class="footer"><p>Copyright © 2020 <a href='javascript:;'>个人版</a>All Rights Reserved</p></div>
+<script th:src="@{/static/jQuery/jquery.min.js}"></script>
+<script th:src="@{/static/js/login.js}"></script>
+</body>
+</html>
