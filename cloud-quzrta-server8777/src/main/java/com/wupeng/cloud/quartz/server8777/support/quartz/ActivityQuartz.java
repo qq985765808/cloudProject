@@ -21,6 +21,9 @@ public class ActivityQuartz extends QuartzJobBean implements Serializable {
 
     @Override
     protected void executeInternal(JobExecutionContext jobExecutionContext) throws JobExecutionException {
+        /**
+         * 后续更新,用来存放秒杀活动信息到缓存的任务,只要更新triggerTime即可!
+         * */
         log.info("ActivityQuartzTime:{}",new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()));
     }
 
