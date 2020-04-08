@@ -49,7 +49,7 @@
     <redis.version>2.2.2.RELEASE</redis.version>
     <mongodb.version>2.1.4.RELEASE</mongodb.version>
     <mongodb.plus.version>1.0.0.RELEASE</mongodb.plus.version>
-
+    <quartz-version>2.2.3</quartz-version>
 
 
     <!--boot   cloud  jar  version-->
@@ -129,6 +129,18 @@
       <groupId>com.spring4all</groupId>
       <artifactId>mongodb-plus-spring-boot-starter</artifactId>
       <version>${mongodb.plus.version}</version>
+    </dependency>
+
+     <!-- quartz  -->
+    <dependency>
+      <groupId>org.quartz-scheduler</groupId>
+      <artifactId>quartz</artifactId>
+      <version>${quartz-version}</version>
+    </dependency>
+    <dependency>
+     <groupId>org.quartz-scheduler</groupId>
+     <artifactId>quartz-jobs</artifactId>
+     <version>${quartz-version}</version>
     </dependency>
 
   </dependencies>
