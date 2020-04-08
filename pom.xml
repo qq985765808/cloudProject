@@ -20,6 +20,7 @@
       <module>cloud-zipkin-admin-server9084</module>
       <module>cloud-zipkin-admin-client9085</module>
       <module>cloud-rabbitmq-server5673</module>
+      <module>cloud-quzrta-server8777</module>
     </modules>
 
     <packaging>pom</packaging>
