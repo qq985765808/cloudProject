@@ -17,7 +17,10 @@ public class QuartzConfig {
      * */
     @Bean
     public JobDetail orderQuzrtz(){
-        return JobBuilder.newJob(OrderQuartz.class).withIdentity("orderQuartzTask").storeDurably().build();
+        return JobBuilder.newJob(OrderQuartz.class)
+                .withIdentity("orderQuartzTask","orderQuartzTaskGroup")//参数一:任务名称 参数二:任务分组名
+                .usingJobData("orderQuartzTaskDataKey","orderQuartzTaskDataValue")//JobDataMap<key,value>类型
+                .storeDurably().build();
     }
 
     /**
@@ -30,7 +33,8 @@ public class QuartzConfig {
                 .withIntervalInSeconds(59) //这里设置秒数
                 .repeatForever();
         return TriggerBuilder.newTrigger().forJob(orderQuzrtz())
-                .withIdentity("orderQuartzTask")
+                .withIdentity("orderQuartzTriggerTask","orderQuartzTaskTriggerGroup")//参数一:触发器名称 参数二:触发器分组名
+                .usingJobData("orderQuartzTaskTriggerDataKey","orderQuartzTaskTriggerDateValue")//JobDataMap<key,value>类型
                 .withSchedule(scheduleBuilder)
                 .build();
     }
