@@ -30,7 +30,7 @@ eureka:
     # 设置eureka服务器所在的地址，查询服务和注册服务都需要依赖这个地址
     serviceUrl:
       #defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
-      defaultZone: http://${eureka.instance.hostname}:9001/eureka/
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
   server:
     #renewal-percent-threshold: 0.1
     # 关闭自我保护模式

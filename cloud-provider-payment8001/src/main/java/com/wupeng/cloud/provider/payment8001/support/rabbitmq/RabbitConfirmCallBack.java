@@ -1,8 +1,7 @@
 package com.wupeng.cloud.provider.payment8001.support.rabbitmq;
 
 
-import com.sun.xml.bind.api.ErrorListener;
-import lombok.extern.slf4j.Slf4j;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.rabbit.connection.CorrelationData;
