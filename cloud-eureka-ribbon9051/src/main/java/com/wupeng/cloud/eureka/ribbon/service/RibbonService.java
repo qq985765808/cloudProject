@@ -14,7 +14,7 @@ public class RibbonService {
 
     @HystrixCommand(fallbackMethod = "error")
     public String sayHi(String message) {
-        return restTemplate.getForObject("http://SPRING-CLOUD-RUREKA-CLIENT/hi?message=" + message, String.class);
+        return restTemplate.getForObject("http://SPRING-CLOUD-EUREKA-CLIENT/hi?message=" + message, String.class);
     }
 
     @HystrixCommand(fallbackMethod = "error")

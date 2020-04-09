@@ -16,7 +16,7 @@ management:
     web:
       exposure:
         #无效  2.0以上
-        #include: health,info
+      #        #include: health,info
 
 eureka:
   client:
