@@ -53,11 +53,11 @@
 
 
     <!--boot   cloud  jar  version-->
-    <!--<spring.boot.version>2.2.2.RELEASE</spring.boot.version>
-    <spring.cloud.version>Hoxton.SR1</spring.cloud.version>-->
+    <spring.boot.version>2.2.2.RELEASE</spring.boot.version>
+    <spring.cloud.version>Hoxton.SR1</spring.cloud.version>
     <!-- 这里降低版本为了兼容zipkin  2.2.x有版本bug-->
-    <spring.boot.version>2.1.6.RELEASE</spring.boot.version>
-    <spring.cloud.version>Greenwich.SR3</spring.cloud.version>
+   <!-- <spring.boot.version>2.1.6.RELEASE</spring.boot.version>
+    <spring.cloud.version>Greenwich.SR3</spring.cloud.version>-->
 
     <spring.cloud.alibaba.version>2.1.0.RELEASE</spring.cloud.alibaba.version>
   </properties>
