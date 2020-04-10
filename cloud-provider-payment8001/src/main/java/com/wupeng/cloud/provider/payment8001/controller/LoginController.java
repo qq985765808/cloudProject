@@ -31,4 +31,11 @@ public class LoginController {
         model.addAttribute("username","吴鹏");
         return "registered";
     }
+
+    @RequestMapping(value = "/main")
+    public String main(Model model){
+        model.addAttribute("username","吴鹏");
+        return "main";
+    }
+
 }

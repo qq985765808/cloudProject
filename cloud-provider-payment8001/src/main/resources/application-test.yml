@@ -49,6 +49,9 @@ spring:
   #静态资源路径
   mvc:
     static-path-pattern: /static/**
+    #关掉原生icon图标
+    favicon:
+      enabled: false
 
   #redis配置参数
   redis:
