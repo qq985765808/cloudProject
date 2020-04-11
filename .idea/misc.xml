@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-config-server8888/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-quzrta-server8777/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-mongodb-server8668/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

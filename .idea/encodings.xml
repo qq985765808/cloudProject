@@ -9,10 +9,9 @@
     <file url="file://$PROJECT_DIR$/cloud-eureka-ribbon9051" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-eureka-server9002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-eureka-zuul8080" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-mongodb-server8668" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-payment8001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-quzrta-server8777" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-quzrta-server8778" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-quzrta-server8778" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-rabbitmq-server5673" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-zipkin-admin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-zipkin-admin-client9085" charset="UTF-8" />

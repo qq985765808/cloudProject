@@ -1,0 +1,36 @@
+#mongodb
+spring:
+  application:
+    name: spring-cloud-mongodb
+  #mongodb
+  data:
+    mongodb:
+      host: 127.0.0.1
+      port: 27017
+      uri: mongodb://127.0.0.1/test
+      repositories:
+        type: auto
+      #mongodb plus
+      option:
+        socket-keep-alive: true
+        max-connection-idle-time: 60000
+        connect-timeout: 36000
+        min-connection-per-host: 5
+        threads-allowed-to-block-for-connection-multiplier: 5
+        max-wait-time: 120000
+        socket-timeout: 0
+        max-connection-life-time: 0
+        heartbeat-connect-timeout: 36000
+        heartbeat-socket-timeout: 36000
+        min-heartbeat-frequency: 5
+        heartbeat-frequency: 10
+
+#配置日志文件参数
+logging:
+  file:
+    path: F:/mylog/mongodb8668Log
+  level:
+    org:
+      springframework:
+        security: DEBUG
+
