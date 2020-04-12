@@ -17,6 +17,7 @@
         <module name="cloud-provider-payment8001" />
         <module name="cloud-quzrta-server8777" />
         <module name="cloud-rabbitmq-server5673" />
+        <module name="cloud-redis-server8558" />
         <module name="cloud-zipkin-admin" />
         <module name="cloud-zipkin-admin-client9085" />
         <module name="cloud-zipkin-admin-server9084" />

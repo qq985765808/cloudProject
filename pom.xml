@@ -22,6 +22,7 @@
       <module>cloud-rabbitmq-server5673</module>
       <module>cloud-quzrta-server8777</module>
       <module>cloud-mongodb-server8668</module>
+      <module>cloud-redis-server8558</module>
     </modules>
 
     <packaging>pom</packaging>
