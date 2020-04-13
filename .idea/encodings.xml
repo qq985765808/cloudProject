@@ -3,20 +3,50 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-config-client8889" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-config-client8889/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-config-client8889/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-config-server8888" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-config-server8888/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-config-server8888/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-eureka-client9003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-eureka-client9003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-eureka-client9003/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-eureka-feign9061" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-eureka-feign9061/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-eureka-feign9061/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-eureka-ribbon9051" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-eureka-ribbon9051/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-eureka-ribbon9051/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-eureka-server9002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-eureka-server9002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-eureka-server9002/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-eureka-zuul8080" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-eureka-zuul8080/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-eureka-zuul8080/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-mongodb-server8668" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-mongodb-server8668/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-mongodb-server8668/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-payment8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-quzrta-server8777" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-quzrta-server8777/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-quzrta-server8777/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-rabbitmq-server5673" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-rabbitmq-server5673/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-rabbitmq-server5673/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-redis-server8558" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-redis-server8558/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-redis-server8558/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-zipkin-admin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-zipkin-admin-client9085" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-zipkin-admin-client9085/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-zipkin-admin-client9085/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-zipkin-admin-server9084" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-zipkin-admin-server9084/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-zipkin-admin-server9084/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-zipkin-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-zipkin-admin/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
