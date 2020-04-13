@@ -60,8 +60,9 @@
     <!-- 这里降低版本为了兼容zipkin  2.2.x有版本bug-->
     <spring.boot.version>2.1.6.RELEASE</spring.boot.version>
     <spring.cloud.version>Greenwich.SR3</spring.cloud.version>
-
-    <spring.cloud.alibaba.version>2.1.0.RELEASE</spring.cloud.alibaba.version>
+    <!-- dubbo版本2.7.3 Seata版本0.9.0  Sentinel 版本1.7.0     Nacos1.1.4 -->
+     <!-- alibaba.cloud版本2.1.1  boot版本2.1.x  cloud版本Greenwich -->
+    <spring.cloud.alibaba.version>2.1.1.RELEASE</spring.cloud.alibaba.version>
   </properties>
 
 <dependencyManagement>

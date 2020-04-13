@@ -22,5 +22,5 @@ rabbitmq支持Direct，Topic，Fanout，Header四种模式,<br>
 #cloud - mongodb 中间件<br>
 mongodb数据库,还没支持SQL语法,继续更新SQL写法,<br>
 可以直接开箱即用<br>
-# cloud - redis 中间件<br>
+#cloud - redis 中间件<br>
 redis支持string,hash,map,后续会更新支持全部的数据类型<br>
