@@ -1,0 +1,255 @@
+/**ToastOne*/
+.cgToastDiv{position: fixed;top: 0px;left: 0px;z-index: 170;display: none;width: 100vw;height: 100vh;}.cgToastBg{width: 100vw;height: 100vh;background: #000;opacity: 0.4;}#cgToastContext{position: fixed;top: 20vh;left: 10vw;overflow-y: auto;border-radius: 10px;width: 80vw;height: 60vh;background: #fff;}
+/*弹框two**/
+.cgToastTwo{position: relative;width: 100%;height: 100%;}.cgToastTwo .cgToastTwoBg{position: fixed;left: 0;top: 0;display: none;z-index: 160;width: 100%;height: 100vh;background-color: rgba(0,0,0,0.4);}.cgToastTwo .cgToastTwoTxt {position: fixed;top: 20%;left: 0;right: 0;display: none;z-index: 170;color: #000;background: white;width: 80%;height: 235px;margin: auto;padding: 10px;border-radius: 5px;}.cgToastTwo .cgToastTwoTxt .cgToastTwoTxtTitle{width: 100%;height: 53px;line-height: 72px;font-size: 16px;color: #121413;font-weight: 700;text-align: center;}.cgToastTwo .cgToastTwoTxt .cgToastTwoTxtMTitle{width: 100%;height: 49px;line-height: 33px;text-align: center;color: #989898;font-size: 16px;}.cgToastTwo .cgToastTwoTxt .cgToastTwoTxtCode{width: 100%;height: 145px;text-align: center;}.cgToastTwo .cgToastTwoTxt .cgToastTwoTxtCode img{width: 220px;}.cgToastTwo .cgToastTwoClose{position: fixed;z-index: 170;bottom: 25vh;left: 50%;display: none;width: 50px;margin-left: -25px;text-align: center;height: 57px;margin-top: 10px;}@media screen and (max-width:320px ) {.cgToastTwo .cgToastTwoClose{bottom: 25vh;}}.cgToastTwo .cgToastTwoClose .cgToastTwoCloseSpan{display: inline-block;width:50px;height:50px;}.cgToastTwo .cgToastTwoClose .cgToastTwoCloseSpan img{width:45px;height:45px;}
+/**ToastThree*/
+.cgToastThreeDiv{position: fixed;top: 0px;left: 0px;z-index: 160;display: none;width: 100vw;height: 100vh;}.cgToastThreeBg{width: 100vw;height: 100vh;background: #000;opacity: 0.4;}#cgToastThreeContext{position: fixed;top: 40vh;left: 50vw;width: 300px;height: auto;background: #fff;overflow-y: auto;}#cgToastThreeContext .cgToastThreeTitle{width: 100%;height: 40px;padding-left: 15px;padding-top: 16px;	color: #333;font-size: 16px;}#cgToastThreeContext .cgToastThreeThead{width: 270px;height: 40px;background: #f6f6f6;border: 1px solid #dcdcdc;margin: 10px  15px 0px 15px;}#cgToastThreeContext .cgToastThreeTheadLiCK{float: left;width: 40px;height: 40px;line-height: 40px;text-align: center;}#cgToastThreeContext .cgToastThreeTheadLi{float: left;width: 114px;height: 40px;line-height: 40px;text-align: center;color: #333333;font-size: 13px;}.cgToastThreeTbody{width: 270px;height: 40px;border: 1px solid #dcdcdc;margin: 2px  15px 0px 15px;}@media screen and (max-width:800px ) {#cgToastThreeContext{left: 10vw;}}@media screen and (max-width:320px ) {#cgToastThreeContext{left: 3vw;}}.cgToastThreeBtn{width: 270px;height: auto;margin: 15px;text-align: center;}.cgToastThreeBtn .cgToastThreeBtnSave{background: #6ABFC6;width: 43px;height: 24px;margin-right: 20px;padding: 0;line-height: 1;border-radius: 0px;border: 0;color: #333;font-size: 13px;}.cgToastThreeBtn .cgToastThreeBtnReset{background: #F1F1F1;width: 43px;height: 24px;padding: 0;line-height: 1;border-radius: 0px;border: 0;color: #333;font-size: 13px;}.cgCheckedLabel{display:inline-block;font-size: 12px;}.cgChecked{display:none}.cgCheckedInput{position: relative;background-color:#fff;border:1px solid rgba(0,0,0,0.15);border-radius:100%;display:inline-block;height:16px;margin-right:0px;margin-top:-1px;vertical-align:middle;width:16px;line-height:1}.cgChecked:checked + .cgCheckedInput:after{background-color: #57ad68;border-radius: 100%;content: "";display: inline-block;height: 10px;width: 10px;position: absolute;right: 2px;top: 2px;}.cgChecked.cgCheckedInput,.cgChecked:checked + .cgChecked.cgCheckedInput:after{margin: 0px 2px 0px 5px;border-radius:0}.cgCheckedFont{position: relative;top:1px;}
+/*效果*/
+.dataListDiv{transition: all ease 0.5s;}.dataListDiv:hover{box-shadow:0px 1px 5px 1px #d9d9d9;}.dataList img:hover{transform:scale(1.2);-ms-transform:scale(1.2);-webkit-transform:scale(1.2);-o-transform:scale(1.2);-moz-transform:scale(1.2);}.dataListDiv img:hover{transform:scale(1.2);-ms-transform:scale(1.2);-webkit-transform:scale(1.2);-o-transform:scale(1.2);-moz-transform:scale(1.2);}.dataListDiv img,.dataList img{transition: all ease 1s;}.dataList .animationImg , .dataListDiv .animationImg{overflow: hidden;}.dataListDiv,.dataList{position: relative;transition: all ease 0.5s;}.dataListDiv:hover,.dataListDiv:hover{box-shadow:0px 1px 5px 1px #d9d9d9;}
+/**线*/
+.line{float: left;position: absolute;left: -5px;top: 12px;width: 1px;height: 25px;background: #e5e5e5;}
+/*分页*/
+.pagingContent{position: inherit;bottom: 15px;width: 980px;margin-bottom: 100px;}.paging{width: 980px;padding-top: 30px;text-align: center;}.paging span{position: relative;z-index: 3;font-size: 14px;cursor: pointer;margin-right: 10px;}.paging .pageUp{position: relative;top: 4px;display: inline-block;width: 35px;height: 35px;background: #e3e3e3;border-radius: 5px;line-height: 44px;}.paging i{position: relative;top: -4px;z-index: 5;color: #9E9E9E;font-size: 14px;}.paging .number{display: inline-block;width: 33px;height: 33px;line-height: 33px;border: 1px solid #ccc;border-radius: 5px;color: #666;}.paging .home{width: auto;padding: 0px 10px;border-radius: 5px;}.paging .active{position: relative;top: 0px;display: inline-block;width: 35px;height: 35px;border: 0;background: #1e3e8f;line-height: 35px;color: #fff!important;}.paging .ellipsis{position: relative;top: -3px;display: inline-block;font-size: 24px;}.paging input{position: relative;top: 0px;width: 33px;padding: 0;height: 33px;line-height: 33px;margin: 0 10px;border-radius: 5px;border: 1px solid #dcdcdc;text-align: center;font-size: 16px;color: #666;}
+/**表单布局样式*/
+.cgMain{width: 940px;height: auto;background: #fff;margin-top: 20px;padding-bottom: 50px;}.cgMain .rowColumn{float: left;width: 50%;height: 80px;line-height: 80px;}.cgMain .rowColumn .rowLeft{float: left;width: 110px;height: 80px;line-height: 80px;padding-right: 20px;text-align: right;font-family: MicrosoftYaHei;font-size: 14px;color: #999;}.cgMain .rowColumn .rowRight{position: relative;float: left;width: auto;height: auto;}.cgMain .rowColumn .rowRight span{position: absolute;right: -15px;top: 3px;color: red;}.cgMain .rowColumn .rowRight input,.cgMain .rowColumn .rowRight select{width: 290px;height: 40px;margin-top: 20px;border: solid 1px #ebebeb;background: #f5f5f5;border-radius: 4px;cursor: pointer;padding-left: 10px;font-size: 15px;}.cgMain .rowColumn .rowRight textarea{width: auto;height: auto;min-height: 100px;border: solid 1px #ebebeb;background: #f5f5f5;border-radius: 4px;line-height: 1.5;cursor: pointer;padding-left: 10px;font-size: 15px;}.cgMain .rowColumn .rowRight i{position: absolute;right: 10px;top: 0px;color: #999;}.cgMain .row{width: 100%;height: auto;min-height: 100px;margin-bottom: 20px;border: 0;}
+/**进度条*/
+.cgLoadingDiv{display: none;}.cgLoading{position: fixed;top: 0px;left: 0px;z-index: 160;width: 100vw;height: 100vh;background: #f6f6f6;opacity:0.4;}.cgLoadingImg{position: fixed;left: 49vw;	top: 40%;z-index: 160;}
+
+/*可修改--默认图*/
+.noData{width: 977px;height: 466px;line-height: 423px;background: #fff;text-align: center;font-size: 18px;color: #9e9e9eb5;}.noData img{position: relative;top: 10px;right: 8px;}
+/**默认弹框图*/
+.cgDefault{top: 39%;left: 34%;z-index: 170;position: fixed;}.cgDefault img{width: 120px;height: 120px;}.cgDefaultSpan{margin-top: 10px;font-size: 14px;color: #9E9E9E;text-align: center;}
+/**默认图end*/
+
+/**树形栏*/
+.cgTreeViewDiv .line{
+	float: left;
+	position: absolute;
+	left: 55px;
+	top: 38px;
+	width: 1px;
+	height: 0px;    
+	background: #999; 
+}
+.cgTreeViewDiv{
+	position: relative;
+}
+.cgTreeView{
+	position:relative;
+	clear: both;
+	width: auto;
+	height: auto;
+	line-height: 28px;
+	padding-top: 10px;
+	padding-left: 40px;
+	transition: all ease 0.5s;
+}
+.cgTreeView .cgTreeViewLeft{
+	float: left;
+	width: 32px;
+    height: 28px;
+	border: 1px solid #999;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 1.5;
+    margin-right:5px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #3c8dbc;
+}
+.cgTreeViewDiv .cgTreeViewChildren{
+	clear: both;
+	height:28px;
+	padding-left: 40px;
+}
+.cgTreeView .cgTreeViewRight{
+	float: left;
+	font-size: 18px;
+}
+/**树形栏end*/
+
+
+/**翻转*/
+.cgImgFlip{transition:all 0.5s; cursor: pointer;}.cgImgFlip:hover{transform: rotateY(180deg);-webkit-transform: rotateY(180deg);	-moz-transform: rotateY(180deg);}
+
+/**星号颜色 可修改*/
+.bgRed{
+	color: #fa6900;
+}
+/**鼠标移入主题色可修改*/
+.hover:hover{
+	color: #004896!important;
+	cursor: pointer;
+}
+body{font-family: "Microsoft YaHei", "SimSun", '\5b8b\4f53', sans-serif;margin: 0;padding: 0;background: #f7f7f7;}p{margin: 0;padding: 0;}ul{width: 100%;height: 100%;margin: 0;padding: 0;list-style: none;}ul li{float: left;}a{text-decoration:none;color: inherit;}button{cursor: pointer;}input{padding-left: 10px;}textarea{padding: 10px;line-height: 1.5;font-size: 15px;}
+/***********非系统样式***************/
+.clean{
+	clear: both;
+}
+
+
+
+/**左侧树形目录*/
+.myLeftModel{
+    width: 1200px;
+    height: auto;
+    margin: 20px auto 20px auto;
+    min-height: 697px;
+}
+.myLeftModel .myLeftModelLeft{
+	float: left;
+	width: 198px;
+	height: auto;
+	background: #fff;
+	margin-bottom: 20px;
+}
+.myLeftModel .myLeftModelLeft .myLeftModelTop{
+	padding: 25px;
+    background: #143c80;
+    height: 50px;
+    padding-right: 40px;
+    padding-left: 16px;
+}
+.myLeftModel .myLeftModelLeft .myLeftModelTop .myLeftModelTopImg{
+	float: left;
+    width: 60px;
+}
+
+.myLeftModel .myLeftModelLeft .myLeftModelTop .myLeftModelTopPerson{
+	float: right;
+}
+.myLeftModel .myLeftModelLeft .myList{
+    height: auto;
+    background: #fff;
+}
+.myLeftModel .myLeftModelLeft .myList .myListLi{
+	width: 175px;
+	height: 34px;
+    line-height: 35px;
+    padding-left: 20px;
+    background: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: PingFang-SC-Regular;
+}
+.myLeftModel .myLeftModelLeft .myList .myListLi:hover{
+	color: #004896;
+}
+.myLeftModel .myLeftModelLeft .myList .myListLiOn{
+	border-left: 2px solid #004896;
+	color: #004896;
+	font-family: PingFangSC-Medium;
+}
+.myLeftModel .myLeftModelLeft .myLeftModelTop .myLeftModelTopPerson .name{
+	font-family: PingFang-SC-Regular;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    max-width: 114px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.myLeftModel .myLeftModelLeft .myLeftModelTop .myLeftModelTopPerson .personCenter{
+	
+line-height: 20px;
+letter-spacing: 0px;
+color: #ffffff;font-family: PingFang-SC-Regular;font-size: 14px;font-weight: normal;font-stretch: normal;}
+.myLeftModel .myLeftModelLeft .myLeftModelTop img{width:52px;height: 52px;border-radius: 50%;}
+
+
+
+
+/**只对当前项目有效*/
+/**右侧公共内容*/
+/*标题*/
+.myLeftModel .reviewBottom .title{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #e5e5e5;
+	
+}
+.myLeftModel .reviewBottom .title .titleLeft{
+	float: left;
+    width: auto;
+    height: 48px;
+    line-height: 48px;
+    padding-left: 20px;
+}
+.myLeftModel .reviewBottom .title .titleLeft span{
+	display: inline-block;
+	height: 100%;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.myLeftModel .reviewBottom .title .titleLeft .spanOn{
+	border-bottom: 2px solid #006835;
+	color: #006835;
+}
+/*内容*/
+.myLeftModel .reviewBottom .main{
+	width: 100%;
+	height: auto;
+	border-top: 20px solid #f6f6f6;
+	padding: 20px;
+}
+.myLeftModel .reviewBottom .main .div{
+	width: 940px;
+	min-height: 30px;
+	line-height: 30px;
+}
+.myLeftModel .reviewBottom .main .copySpan{
+	margin-left: 10px;
+}
+.myLeftModel .reviewBottom textarea{
+	width: 940px;
+	height: auto;
+	min-height: 300px;
+	padding: 15px;
+	
+}
+.myLeftModel .reviewBottom .main .saveDemo{
+	margin-bottom: 10px;
+}
+.myLeftModel .reviewBottom .main .saveDemo div{
+	min-width: 60px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 3px;
+	cursor: pointer;
+	padding: 0px 10px;
+	border: 0;
+	text-align: center;
+}
+
+.main .red{
+	font-weight: 700;
+	color: #ff3333;
+}
+.main .warn{
+	color: #666;
+}
+
+.main #content{
+	width: 940px;
+}
+
+/**右侧公共内容end*/
+
+
+
+/**********公共样式*********/
+
+.leftIframe{
+	min-height:1200px!important;
+}
+
+.mContent{
+	width: 375px!important;
+	height: 500px!important;
+}
+/***************/

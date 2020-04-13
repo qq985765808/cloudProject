@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cf49b8c3-d035-418d-93c0-ff481e393ff9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wupeng/cloud/provider/payment8001/vo/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-client9003/cloud-eureka-client9003.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cloudproject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/alert-demo/alert.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/alert-demo/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/alert-demo/alert.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/alert-demo/jquery-1.9.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/aliyun/aliyun-upload-sdk1.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/aliyun/lib/aliyun-oss-sdk4.13.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/aliyun/lib/es6-promise.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/date/css/laydate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/date/images/calendar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/date/js/laydate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/dialogs/emotion/emotion.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/dialogs/emotion/emotion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/dialogs/emotion/images/0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/dialogs/emotion/images/bface.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/dialogs/emotion/images/cface.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/dialogs/emotion/images/fface.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/dialogs/emotion/images/jxface2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/dialogs/emotion/images/neweditor-tab-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/dialogs/emotion/images/tface.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/dialogs/emotion/images/wface.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/dialogs/emotion/images/yface.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/dialogs/formula/formula.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/dialogs/formula/formula.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/dialogs/formula/formula.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/dialogs/formula/images/formula.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/dialogs/image/image.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/dialogs/image/image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/dialogs/image/images/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/dialogs/image/images/upload1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/dialogs/image/images/upload2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/dialogs/link/link.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/dialogs/map/map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/dialogs/map/map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/dialogs/video/images/center_focus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/dialogs/video/images/left_focus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/dialogs/video/images/none_focus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/dialogs/video/images/right_focus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/dialogs/video/video.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/dialogs/video/video.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/lang/en/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/lang/en/images/addimage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/lang/en/images/alldeletebtnhoverskin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/lang/en/images/alldeletebtnupskin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/lang/en/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/lang/en/images/button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/lang/en/images/copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/lang/en/images/deletedisable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/lang/en/images/deleteenable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/lang/en/images/imglabel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/lang/en/images/listbackground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/lang/en/images/localimage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/lang/en/images/music.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/lang/en/images/rotateleftdisable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/lang/en/images/rotateleftenable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/lang/en/images/rotaterightdisable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/lang/en/images/rotaterightenable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/lang/en/images/upload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/lang/zh-cn/images/copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/lang/zh-cn/images/imglabel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/lang/zh-cn/images/localimage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/lang/zh-cn/images/music.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/lang/zh-cn/images/upload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/lang/zh-cn/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/themes/default/css/umeditor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/themes/default/css/umeditor.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/themes/default/images/caret.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/themes/default/images/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/themes/default/images/icons.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/themes/default/images/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/themes/default/images/ok.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/themes/default/images/pop-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/themes/default/images/spacer.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/themes/default/images/videologo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/third-party/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/third-party/mathquill/font/Symbola.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/third-party/mathquill/font/Symbola.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/third-party/mathquill/font/Symbola.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/third-party/mathquill/font/Symbola.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/third-party/mathquill/font/Symbola.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/third-party/mathquill/font/stixgeneral-bundle/STIXFontLicense2010.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/third-party/mathquill/font/stixgeneral-bundle/stixgeneral-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/third-party/mathquill/font/stixgeneral-bundle/stixgeneral-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/third-party/mathquill/font/stixgeneral-bundle/stixgeneral-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/third-party/mathquill/font/stixgeneral-bundle/stixgeneral-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbol-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbol-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbol-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbol-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbolita-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbolita-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbolita-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbolita-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/third-party/mathquill/font/stixgeneral-bundle/stixgeneralitalic-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/third-party/mathquill/font/stixgeneral-bundle/stixgeneralitalic-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/third-party/mathquill/font/stixgeneral-bundle/stixgeneralitalic-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/third-party/mathquill/font/stixgeneral-bundle/stixgeneralitalic-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/third-party/mathquill/mathquill.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/third-party/mathquill/mathquill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/third-party/mathquill/mathquill.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/umeditor.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/umeditor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/plugin/utf8-jsp/umeditor.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-zipkin-admin-server9084/cloud-zipkin-admin-server9084.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/cloudproject$PaymentApplication.ic" NAME="PaymentApplication Coverage Results" MODIFIED="1585394501831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Receive</find>
+      <find>.js</find>
+      <find>chunk</find>
+      <find>j</find>
+      <find>site-menu</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>G:\workSpace\cloudproject\cloud-provider-payment8001</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="F:\Program Files\Git\bin\git.exe" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/Program Files (x86)/USER/repository/apache-maven-3.5.0" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aUygS0YDbHkYWA23I3OFpBQS0D" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://G:/workSpace/cloudproject/cloud-provider-payment8001/src/main/java/com/wupeng/cloud/provider/payment8001/pojo/Order.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586662197959" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2816092" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\workSpace\cloudproject\cloud-provider-payment8001\src\main\resources\static" />
+      <recent name="G:\workSpace\cloudproject\cloud-provider-payment8001\src\main\resources\static\less\main" />
+      <recent name="G:\workSpace\cloudproject\cloud-provider-payment8001\src\main\resources\static\images\icon" />
+      <recent name="G:\workSpace\cloudproject\cloud-provider-payment8001\src\main\resources\static\images" />
+      <recent name="G:\workSpace\cloudproject\cloud-provider-payment8001\src\main\resources\static\font" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\workSpace\cloudproject\cloud-provider-payment8001\src\main\resources\static" />
+      <recent name="G:\workSpace\cloudproject\cloud-provider-payment8001\src\main\resources\static\images" />
+      <recent name="G:\workSpace\cloudproject\cloud-provider-payment8001\src\main\resources" />
+      <recent name="G:\workSpace\cloudproject\cloud-provider-payment8001\src\main\resources\static\js" />
+      <recent name="G:\workSpace\cloudproject\cloud-provider-payment8001\src\main\resources\static\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.RedisApplication">
+    <configuration name="TestRabbitMQ.testRabbit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloud-rabbitmq-server5673" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.rabbitmq.server5673.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cloud.rabbitmq.server5673" />
+      <option name="MAIN_CLASS_NAME" value="com.cloud.rabbitmq.server5673.TestRabbitMQ" />
+      <option name="METHOD_NAME" value="testRabbit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRabbitMQ.testRabbitACK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloud-rabbitmq-server5673" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.rabbitmq.server5673.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cloud.rabbitmq.server5673" />
+      <option name="MAIN_CLASS_NAME" value="com.cloud.rabbitmq.server5673.TestRabbitMQ" />
+      <option name="METHOD_NAME" value="testRabbitACK" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRabbitMQ.testRabbitController" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloud-rabbitmq-server5673" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.rabbitmq.server5673.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cloud.rabbitmq.server5673" />
+      <option name="MAIN_CLASS_NAME" value="com.cloud.rabbitmq.server5673.TestRabbitMQ" />
+      <option name="METHOD_NAME" value="testRabbitController" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-config-client8889" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wupeng.cloud.config.client.CloudConfigClientApplication" />
+      <option name="DEBUG_MODE" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-config-server8888" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wupeng.cloud.config.server.CloudConfigServerApplication" />
+      <option name="DEBUG_MODE" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudEurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="cloud-eureka-client9003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wupeng.cloud.eureka.client.CloudEurekaClientApplication" />
+      <option name="DEBUG_MODE" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudEurekaFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-eureka-feign9061" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wupeng.cloud.eureka.feign.CloudEurekaFeignApplication" />
+      <option name="DEBUG_MODE" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudEurekaRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-eureka-ribbon9051" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wupeng.cloud.eureka.ribbon.CloudEurekaRibbonApplication" />
+      <option name="DEBUG_MODE" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudEurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="cloud-eureka-server9002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wupeng.cloud.eureka.server.CloudEurekaServerApplication" />
+      <option name="DEBUG_MODE" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudEurekaZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-eureka-zuul8080" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wupeng.cloud.eureka.zuul.CloudEurekaZuulApplication" />
+      <option name="DEBUG_MODE" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudZipkinAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-zipkin-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wupeng.cloud.zipkin.admin.CloudZipkinAdminApplication" />
+      <option name="DEBUG_MODE" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudZipkinAdminClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-zipkin-admin-client9085" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wupeng.cloud.zipkin.admin.client.CloudZipkinAdminClientApplication" />
+      <option name="DEBUG_MODE" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudZipkinAdminServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-zipkin-admin-server9084" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wupeng.cloud.zipkin.admin.server.CloudZipkinAdminServerApplication" />
+      <option name="DEBUG_MODE" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MongodbApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-mongodb-server8668" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wupeng.cloud.mongodb.server8668.MongodbApplication" />
+      <option name="DEBUG_MODE" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-payment8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wupeng.cloud.provider.payment8001.PaymentApplication" />
+      <option name="DEBUG_MODE" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndTriggerFile" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuartzApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-quzrta-server8777" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wupeng.cloud.quartz.server8777.QuartzApplication" />
+      <option name="DEBUG_MODE" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitMQApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-rabbitmq-server5673" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wupeng.cloud.rabbitmq.server5673.RabbitMQApplication" />
+      <option name="DEBUG_MODE" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-redis-server8558" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wupeng.cloud.redis.server8558.RedisApplication" />
+      <option name="DEBUG_MODE" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-payment8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wupeng.cloud.provider.payment8001.PaymentApplication" />
+      <option name="DEBUG_MODE" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndTriggerFile" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TestRabbitMQ.testRabbit" />
+      <item itemvalue="JUnit.TestRabbitMQ.testRabbitController" />
+      <item itemvalue="JUnit.TestRabbitMQ.testRabbitACK" />
+      <item itemvalue="Spring Boot.PaymentApplication" />
+      <item itemvalue="Spring Boot.MongodbApplication" />
+      <item itemvalue="Spring Boot.RedisApplication" />
+      <item itemvalue="Spring Boot.CloudEurekaServerApplication" />
+      <item itemvalue="Spring Boot.CloudEurekaClientApplication" />
+      <item itemvalue="Spring Boot.CloudEurekaRibbonApplication" />
+      <item itemvalue="Spring Boot.CloudEurekaFeignApplication" />
+      <item itemvalue="Spring Boot.CloudEurekaZuulApplication" />
+      <item itemvalue="Spring Boot.CloudConfigServerApplication" />
+      <item itemvalue="Spring Boot.CloudZipkinAdminApplication" />
+      <item itemvalue="Spring Boot.CloudZipkinAdminServerApplication" />
+      <item itemvalue="Spring Boot.CloudZipkinAdminClientApplication" />
+      <item itemvalue="Spring Boot.CloudConfigClientApplication" />
+      <item itemvalue="Spring Boot.RabbitMQApplication" />
+      <item itemvalue="Spring Boot.QuartzApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.MongodbApplication" />
+        <item itemvalue="JUnit.TestRabbitMQ.testRabbitACK" />
+        <item itemvalue="JUnit.TestRabbitMQ.testRabbitController" />
+        <item itemvalue="JUnit.TestRabbitMQ.testRabbit" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf49b8c3-d035-418d-93c0-ff481e393ff9" name="Default Changelist" comment="" />
+      <created>1583508872373</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583508872373</updated>
+      <workItem from="1583508876465" duration="4391000" />
+      <workItem from="1583566226500" duration="7022000" />
+      <workItem from="1583579370401" duration="198000" />
+      <workItem from="1583579644604" duration="9464000" />
+      <workItem from="1583646639071" duration="19794000" />
+      <workItem from="1583729705672" duration="8244000" />
+      <workItem from="1583739596975" duration="13391000" />
+      <workItem from="1583818871343" duration="2459000" />
+      <workItem from="1583912512391" duration="2214000" />
+      <workItem from="1584425246953" duration="2033000" />
+      <workItem from="1584695025004" duration="2737000" />
+      <workItem from="1584733085741" duration="588000" />
+      <workItem from="1584774620641" duration="6807000" />
+      <workItem from="1584787685212" duration="8602000" />
+      <workItem from="1584898379974" duration="4053000" />
+      <workItem from="1584961921147" duration="1839000" />
+      <workItem from="1585039232767" duration="2081000" />
+      <workItem from="1585089938478" duration="2991000" />
+      <workItem from="1585095451975" duration="2747000" />
+      <workItem from="1585306698260" duration="2543000" />
+      <workItem from="1585351645788" duration="11986000" />
+      <workItem from="1585704091743" duration="4035000" />
+      <workItem from="1585757904969" duration="9909000" />
+      <workItem from="1585789374625" duration="3177000" />
+      <workItem from="1585878381178" duration="8846000" />
+      <workItem from="1585942606460" duration="6691000" />
+      <workItem from="1586051733320" duration="1191000" />
+      <workItem from="1586102753248" duration="1469000" />
+      <workItem from="1586129241165" duration="7563000" />
+      <workItem from="1586223507793" duration="714000" />
+      <workItem from="1586304318047" duration="9624000" />
+      <workItem from="1586366459529" duration="7805000" />
+      <workItem from="1586392479804" duration="8969000" />
+      <workItem from="1586458901573" duration="16499000" />
+      <workItem from="1586485295569" duration="4816000" />
+      <workItem from="1586540529019" duration="114000" />
+      <workItem from="1586577574633" duration="6534000" />
+      <workItem from="1586646279634" duration="7253000" />
+      <workItem from="1586743247457" duration="767000" />
+      <workItem from="1586804605601" duration="2408000" />
+    </task>
+    <task id="LOCAL-00001" summary="cloud Project">
+      <created>1583679403896</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583679403896</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add  zuul">
+      <created>1583681725197</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583681725197</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add  logging  config">
+      <created>1583682602402</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583682602402</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update  payment">
+      <created>1583683094203</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583683094203</updated>
+    </task>
+    <task id="LOCAL-00005" summary="修复maven打jar包的找不到main,以及新增配置中心服务端">
+      <created>1583737672960</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583737672960</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update 配置中心服务端">
+      <created>1583737828633</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583737828633</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update 配置中心服务端口,如果修改默认端口8888,需要在bootstrap开头的yml&#10;或者properties配置,原因就是优先加载！！！">
+      <created>1583738162950</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583738162950</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update 配置中心服务端口,如果修改默认端口8888,需要在bootstrap开头的yml&#10;或者properties配置,原因就是优先加载！！！">
+      <created>1583738177161</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1583738177161</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update 配置中心服务端口,如果修改默认端口8888,需要在bootstrap开头的yml&#10;或者properties配置,原因就是优先加载！！！">
+      <created>1583738532104</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1583738532104</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add 配置中心客户端,add  配置服务端的配置文件">
+      <created>1583739171547</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1583739171547</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update pom">
+      <created>1583739310140</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1583739310140</updated>
+    </task>
+    <task id="LOCAL-00012" summary="bug：zipkin2有版本bug,建议下降boot版本到2.0 or 2.1 不要用2.2版本&#10;cloud版本也要按照版本来对应boot版本！官方issues有.&#10;add zipkin admin(server and  client)">
+      <created>1583754413098</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1583754413098</updated>
+    </task>
+    <task id="LOCAL-00013" summary="bug：官方issues(github.com/spring-cloud/spring-cloud-netflix/issue/3410)&#10;去掉slf4j框架">
+      <created>1583754727727</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1583754727727</updated>
+    </task>
+    <task id="LOCAL-00014" summary="support eureka  cluster mode{支持eureka集群模式}">
+      <created>1584778072377</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1584778072377</updated>
+    </task>
+    <task id="LOCAL-00015" summary="support eureka  cluster mode{支持eureka集群模式}&#10;update application.yml">
+      <created>1584778293571</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1584778293571</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add static  resources">
+      <created>1584788906017</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1584788906017</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add  订单  限时活动">
+      <created>1584818658761</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1584818658761</updated>
+    </task>
+    <task id="LOCAL-00018" summary="update index html&#10;add  layui template">
+      <created>1584902276826</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1584902276827</updated>
+    </task>
+    <task id="LOCAL-00019" summary="update index html&#10;add  bootstrap template">
+      <created>1585092887749</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1585092887749</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add  support rabbitmq &#10;update  static  templates">
+      <created>1585420851914</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1585420851914</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add  support cloud-euerke-rabbitmq">
+      <created>1585706532096</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1585706532096</updated>
+    </task>
+    <task id="LOCAL-00022" summary="test  support rabbitmq">
+      <created>1585783495226</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1585783495226</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add  rabbitmq  service  support  API">
+      <created>1585881295247</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1585881295247</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add  rabbitmq  support  ribbon RPC">
+      <created>1585883822546</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1585883822546</updated>
+    </task>
+    <task id="LOCAL-00025" summary="test  support rabbitmq">
+      <created>1585914242418</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1585914242418</updated>
+    </task>
+    <task id="LOCAL-00026" summary="update">
+      <created>1586003597029</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1586003597029</updated>
+    </task>
+    <task id="LOCAL-00027" summary="新增  登录和注册页面">
+      <created>1586138125283</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1586138125283</updated>
+    </task>
+    <task id="LOCAL-00028" summary="add  support quartz">
+      <created>1586309704193</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1586309704194</updated>
+    </task>
+    <task id="LOCAL-00029" summary="作业用途注释">
+      <created>1586310194983</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1586310194983</updated>
+    </task>
+    <task id="LOCAL-00030" summary="update  quartz">
+      <created>1586314244530</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1586314244530</updated>
+    </task>
+    <task id="LOCAL-00031" summary="update QuartzConfig">
+      <created>1586366701747</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1586366701747</updated>
+    </task>
+    <task id="LOCAL-00032" summary="update  euerka server  support eureka cluster mode">
+      <created>1586368623454</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1586368623454</updated>
+    </task>
+    <task id="LOCAL-00033" summary="update  zikpin and eureka">
+      <created>1586392872296</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1586392872296</updated>
+    </task>
+    <task id="LOCAL-00034" summary="update zikpin(注意版本bug,用2.1.x和G开头的)">
+      <created>1586402149630</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1586402149630</updated>
+    </task>
+    <task id="LOCAL-00035" summary="修复一个粗心大意遗留的bug,单词写错了一个">
+      <created>1586405467556</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1586405467556</updated>
+    </task>
+    <task id="LOCAL-00036" summary="新增页面 写css 写的脑袋疼">
+      <created>1586499380692</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1586499380692</updated>
+    </task>
+    <task id="LOCAL-00037" summary="add MongoDB">
+      <created>1586586721147</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1586586721147</updated>
+    </task>
+    <task id="LOCAL-00038" summary="添加说明">
+      <created>1586588095086</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1586588095086</updated>
+    </task>
+    <task id="LOCAL-00039" summary="添加说明">
+      <created>1586588268199</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1586588268199</updated>
+    </task>
+    <task id="LOCAL-00040" summary="update mongodb">
+      <created>1586658905215</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1586658905215</updated>
+    </task>
+    <task id="LOCAL-00041" summary="add redis">
+      <created>1586660718408</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1586660718408</updated>
+    </task>
+    <task id="LOCAL-00042" summary="添加说明">
+      <created>1586660915646</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1586660915646</updated>
+    </task>
+    <task id="LOCAL-00043" summary="添加说明">
+      <created>1586743383991</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1586743383991</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestRabbitMQ_testRabbit - 2020.04.03 at 10h 26m 55s.xml">
+      <configuration name="TestRabbitMQ.testRabbit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRabbitMQ_testRabbit - 2020.04.03 at 10h 32m 46s.xml">
+      <configuration name="TestRabbitMQ.testRabbit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRabbitMQ_testRabbitController - 2020.04.03 at 10h 55m 27s.xml">
+      <configuration name="TestRabbitMQ.testRabbitController" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRabbitMQ_testRabbitController - 2020.04.03 at 10h 56m 54s.xml">
+      <configuration name="TestRabbitMQ.testRabbitController" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRabbitMQ_testRabbitController - 2020.04.03 at 10h 59m 14s.xml">
+      <configuration name="TestRabbitMQ.testRabbitController" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRabbitMQ_testRabbitController - 2020.04.03 at 10h 59m 57s.xml">
+      <configuration name="TestRabbitMQ.testRabbitController" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRabbitMQ_testRabbitController - 2020.04.03 at 11h 01m 37s.xml">
+      <configuration name="TestRabbitMQ.testRabbitController" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRabbitMQ_testRabbitController - 2020.04.03 at 11h 02m 17s.xml">
+      <configuration name="TestRabbitMQ.testRabbitController" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRabbitMQ_testRabbitController - 2020.04.03 at 11h 03m 01s.xml">
+      <configuration name="TestRabbitMQ.testRabbitController" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRabbitMQ_testRabbitACK - 2020.04.04 at 04h 43m 31s.xml">
+      <configuration name="TestRabbitMQ.testRabbitACK" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="support eureka  cluster mode{支持eureka集群模式}&#10;update application.yml" />
+    <MESSAGE value="add static  resources" />
+    <MESSAGE value="add  订单  限时活动" />
+    <MESSAGE value="update index html&#10;add  layui template" />
+    <MESSAGE value="update index html&#10;add  bootstrap template" />
+    <MESSAGE value="add  support rabbitmq &#10;update  static  templates" />
+    <MESSAGE value="add  support cloud-euerke-rabbitmq" />
+    <MESSAGE value="add  rabbitmq  service  support  API" />
+    <MESSAGE value="add  rabbitmq  support  ribbon RPC" />
+    <MESSAGE value="test  support rabbitmq" />
+    <MESSAGE value="update" />
+    <MESSAGE value="新增  登录和注册页面" />
+    <MESSAGE value="add  support quartz" />
+    <MESSAGE value="作业用途注释" />
+    <MESSAGE value="update  quartz" />
+    <MESSAGE value="update QuartzConfig" />
+    <MESSAGE value="update  euerka server  support eureka cluster mode" />
+    <MESSAGE value="update  zikpin and eureka" />
+    <MESSAGE value="update zikpin(注意版本bug,用2.1.x和G开头的)" />
+    <MESSAGE value="修复一个粗心大意遗留的bug,单词写错了一个" />
+    <MESSAGE value="新增页面 写css 写的脑袋疼" />
+    <MESSAGE value="add MongoDB" />
+    <MESSAGE value="update mongodb" />
+    <MESSAGE value="add redis" />
+    <MESSAGE value="添加说明" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加说明" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="723" y="126" width="472" height="411" key="#Notifications" timestamp="1586804756644">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="723" y="126" width="472" height="411" key="#Notifications/0.0.1366.738@0.0.1366.738" timestamp="1586804756644" />
+    <state x="282" y="185" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1586807213727">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="282" y="185" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1366.738@0.0.1366.738" timestamp="1586807213727" />
+    <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586805641225">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1586805641225" />
+    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1586804821522">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1586804821522" />
+    <state x="67" y="0" key="SettingsEditor" timestamp="1586807216633">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="67" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1586807216633" />
+  </component>
+</project>

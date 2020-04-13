@@ -1,0 +1,34 @@
+
+
+spring:
+  application:
+    name: spring-cloud-eureka-zuul
+  zipkin:
+    base-url: http://localhost:9411
+
+
+server:
+  port: 8080
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9001/eureka,http://localhost:9002/eureka
+
+zuul:
+  routes:
+    api-a:
+      path: /api/ribbon/**
+      serviceId: spring-cloud-eureka-ribbon
+    api-b:
+      path: /api/feign/**
+      serviceId: spring-cloud-eureka-feign
+
+#配置日志文件参数
+logging:
+  file:
+    path: F:/mylog/zuul8080Log
+  level:
+    org:
+      springframework:
+        security: DEBUG

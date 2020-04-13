@@ -1,0 +1,253 @@
+/* 主页面的css */
+
+body {
+    padding: 0;
+    font-size: 10pt;
+    /*behavior:url(css/csshover.htc);*/
+    /*为兼容IE6引的补丁文件*/
+}
+
+/* 一级菜单 */
+.topmenu {
+    display: block;
+    width: 220px;
+    border: 2px solid #e4393c;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 30%;
+    left: 4%;
+}
+
+.toptitle {
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    font-size: 11pt;
+    font-weight: bold;
+    color: White;
+    background: #e4393c;
+    padding-left: 20px;
+}
+
+.topmenu li {
+    height: 30px;
+    line-height: 30px;
+    font-size: 11pt;
+    list-style-type: none;
+    text-align: left;
+    padding-left: 8px;
+    z-index: 3;
+    /*图层*/
+    background-image: url(http://img.mukewang.com/5411027300014f0200220030.jpg);
+    /*箭头图片*/
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.topmenu li:hover {
+    background-image: none;
+    /*去掉箭头图片*/
+    border: 1px solid #DDD;
+    border-right: 0;
+    box-shadow: 0 0 8px #DDD;
+    /*向框添加一个或多个阴影*/
+    -moz-box-shadow: 0 0 8px #DDD;
+    /* 老的 Firefox */
+    -webkit-box-shadow: 0 0 8px #DDD;
+    /*兼容谷歌*/
+    border-left: 4px solid #e4393c;
+}
+
+.topmenu li a {
+    text-decoration: none;
+    color: #313131;
+}
+
+.topmenu li a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #e4393c;
+}
+
+/*  两级菜单 */
+.submenu {
+    display: none;
+    width: 718px;
+    position: absolute;
+    top: 40px;
+    left: 223px;
+    border: 1px solid #DDD;
+    z-index: 4;
+    background: white;
+    box-shadow: 0 0 8px #DDD;
+    -moz-box-shadow: 0 0 8px #DDD;
+    -webkit-box-shadow: 0 0 8px #DDD;
+}
+
+.leftdiv {
+    float: left;
+    width: 490px;
+    margin: 5px;
+}
+
+.rightdiv {
+    float: left;
+    width: 200px;
+    margin: 5px;
+}
+
+.topmenu .lihover { /*鼠标移动到上面时应用的样式*/
+    background-image: none;
+    /*去掉箭头图片*/
+    border: 1px solid #DDD;
+    border-right: 0;
+    box-shadow: 0 0 8px #DDD;
+    /*向框添加一个或多个阴影*/
+    -moz-box-shadow: 0 0 8px #DDD;
+    /* 老的 Firefox */
+    -webkit-box-shadow: 0 0 8px #DDD;
+    /*兼容谷歌*/
+    border-left: 4px solid #e4393c;
+}
+
+.topmenu .lihover .submenu { /*悬浮层*/
+    display: block;
+}
+
+.topmenu .lihover span { /*白色小方框*/
+    background: white;
+    display: inline-block;
+    z-index: 20;
+    width: 20px;
+    height: 30px;
+    float: right;
+    position: relative;
+}
+
+.leftdiv dl {
+    display: block;
+    border-bottom: 1px solid #EEE;
+    padding-bottom: 6px;
+    overflow: hidden;
+}
+
+.leftdiv dl dt {
+    display: block;
+    float: left;
+    width: 60px;
+    text-align: right;
+    height: 22px;
+    line-height: 22px;
+    padding-right: 6px;
+}
+
+.leftdiv dl dt a {
+    color: #e4393c;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 10pt;
+}
+
+.leftdiv dl dd {
+    display: block;
+    overflow: hidden;
+}
+
+.leftdiv dl dd a {
+    display: block;
+    float: left;
+    border-left: 1px solid #ccc;
+    color: #737373;
+    font-size: 9pt;
+    padding: 0 8px;
+    height: 14px;
+    line-height: 14px;
+    margin: 4px 0;
+}
+
+.rightdiv dl dd {
+    margin: 3px 0;
+}
+
+.rightdiv dl dt {
+    color: #e4393c;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.rightdiv dl dd a {
+    font-size: 9px;
+    color: #737373;
+    line-height: 22px;
+}
+
+.rightdiv dl dd a:hover {
+    font-weight: normal;
+    color: #737373;
+}
+/*上边距  右边距  下边距  左边距*/
+/*头部导航*/
+.top_nav_div {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 90px;
+    position:fixed;
+}
+
+.logo {
+    padding-top: 5px;
+    padding-left: 20px;
+    width: 10%;
+}
+
+.nav_menus_all {
+    margin: 0 0 0 12%;
+    padding: 0;
+    width: 85%;
+
+}
+
+.menu_ul_list {
+    list-style: none;
+    margin: 0 0 0 10px;
+    padding: 0;
+    width: 83%;
+    position: fixed;
+    overflow: auto; /* 如果导航栏选项多，允许滚动 */
+}
+.menu_ul_list >li {
+    float:left;/*竖排*/
+    display: block;
+    margin: 0px;
+    width: 9%;
+    text-decoration: none;
+}
+
+/* 鼠标移动到选项上修改背景颜色 */
+.menu_ul_li_list .div >a:hover {
+    background-color: red;
+    color: red;
+}
+
+.menu_ul_li_list .div:first-child {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/*二级菜单*/
+.nav_menus_second_level {
+    display: none;
+}
+/*上边距  右边距  下边距  左边距*/
+/*中间导航*/
+.middle_div {
+    width: 100%;
+    height: 80%;
+    margin-top: 20px;
+    position: fixed;
+}
+.middle_div_left {
+    width: 20%;
+}

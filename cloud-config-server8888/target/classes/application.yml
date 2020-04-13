@@ -1,0 +1,32 @@
+
+#spring.cloud.config.label：配置仓库的分支
+#spring.cloud.config.server.git.uri：配置 Git 仓库地址（GitHub、GitLab、码云 ...）
+#spring.cloud.config.server.git.search-paths：配置仓库路径（存放配置文件的目录）
+#spring.cloud.config.server.git.username：访问 Git 仓库的账号
+#spring.cloud.config.server.git.password：访问 Git 仓库的密码
+#如果使用 GitLab 作为仓库的话，git.uri 需要在结尾加上 .git，GitHub 则不用
+
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/qq985765808/cloudProject
+          search-paths: cloud-config-server8888/src/main/resources
+          username:
+          password:
+
+
+server:
+  port: 8888
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9001/eureka,http://localhost:9002/eureka
+
+
+

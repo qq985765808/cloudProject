@@ -1,0 +1,24 @@
+
+spring:
+  application:
+    name: spring-cloud-eureka-client
+  zipkin:
+    base-url: http://localhost:9411
+
+
+server:
+  port: 9003
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9001/eureka,http://localhost:9002/eureka
+
+#配置日志文件参数
+logging:
+  file:
+    path: F:/mylog/eurekaClient9003Log
+  level:
+    org:
+      springframework:
+        security: DEBUG

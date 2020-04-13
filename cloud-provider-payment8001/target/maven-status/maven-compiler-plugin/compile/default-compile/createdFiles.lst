@@ -1,0 +1,10 @@
+com\wupeng\cloud\provider\payment8001\config\RedisConfig.class
+com\wupeng\cloud\provider\payment8001\interceptor\PassInterceptor.class
+com\wupeng\cloud\provider\payment8001\service\RedisService.class
+com\wupeng\cloud\provider\payment8001\config\WebConfigurer.class
+com\wupeng\cloud\provider\payment8001\config\WebFilterConfig.class
+com\wupeng\cloud\provider\payment8001\PaymentApplication.class
+com\wupeng\cloud\provider\payment8001\config\DruidConfiguration.class
+com\wupeng\cloud\provider\payment8001\controller\AdminController.class
+com\wupeng\cloud\provider\payment8001\vo\ServerThreadInfoVO.class
+com\wupeng\cloud\provider\payment8001\controller\LoginController.class

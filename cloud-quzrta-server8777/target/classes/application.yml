@@ -1,0 +1,33 @@
+#quartz
+spring:
+  application:
+    name: spring-cloud-quartz
+  #采用jdbc模式,需要配置数据库（mysql）
+  #quartz:
+  #  job-store-type: jdbc
+  # jdbc:
+      # 每次启动重新初始化数据库中Quartz相关的表，如果不需要每次启动服务都重新创建表，下面两项可以不配置，事先在数据库中创建好Quartz相关的表
+   #   initialize-schema: always
+      # 初始化脚本
+   #   schema: classpath:schema/tables_mysql.sql
+
+
+  zipkin:
+    base-url: http://localhost:9411
+
+server:
+  port: 8777
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9001/eureka,http://localhost:9002/eureka
+
+#配置日志文件参数
+logging:
+  file:
+    path: F:/mylog/quartz8777Log
+  level:
+    org:
+      springframework:
+        security: DEBUG

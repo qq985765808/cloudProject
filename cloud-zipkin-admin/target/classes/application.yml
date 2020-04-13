@@ -1,0 +1,49 @@
+#zikpin
+spring:
+  application:
+    name: spring-cloud-zipkin
+    #main:
+    #指定为非web应用
+    #web-application-type: none
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/order?characterEncoding=utf-8&serverTimezone=GMT%2B8
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      auto-commit: true
+      minimum-idle: 2
+      idle-timeout: 60000
+      connection-timeout: 30000
+      max-lifetime: 1800000
+      pool-name: DatebookHikariCP
+  sleuth:
+    enabled: false
+  zipkin:
+    storage:
+      type: mysql
+
+server:
+  port: 9411
+  # 是否开启压缩，默认为false
+  compression:
+    enabled: true
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9001/eureka,http://localhost:9002/eureka
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+  metrics:
+    web:
+      server:
+        auto-time-requests: false
