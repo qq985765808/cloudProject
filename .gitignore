@@ -1,0 +1,16 @@
+/cloud-provider-payment8001/target/
+/cloud-mongodb-server8668/target/
+/cloud-config-client8889/target/
+/cloud-config-server8888/target/
+/cloud-eureka-client9003/target/
+/cloud-eureka-feign9061/target/
+/cloud-eureka-ribbon9051/target/
+/cloud-eureka-server9002/target/
+/cloud-eureka-zuul8080/target/
+/cloud-quzrta-server8777/target/
+/cloud-rabbitmq-server5673/target/
+/cloud-redis-server8558/target/
+/cloud-zipkin-admin/target/
+/cloud-zipkin-admin-client9085/target/
+/cloud-zipkin-admin-server9084/target/
+/src/

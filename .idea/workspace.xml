@@ -19,47 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf49b8c3-d035-418d-93c0-ff481e393ff9" name="Default Changelist" comment="idea2020.1测试git">
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wupeng/cloud/provider/payment8001/controller/CustomControllerAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wupeng/cloud/provider/payment8001/controller/CustomErrorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wupeng/cloud/provider/payment8001/support/wechat/WeChatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wupeng/cloud/provider/payment8001/utils/AesException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wupeng/cloud/provider/payment8001/utils/SHA1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wupeng/cloud/provider/payment8001/utils/WXPublicUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wupeng/cloud/provider/payment8001/vo/Temp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/templates/error/400.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/templates/error/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/templates/error/500.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="cf49b8c3-d035-418d-93c0-ff481e393ff9" name="Default Changelist" comment="add controller and wx 验证服务器">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-client8889/target/classes/META-INF/build-info.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-server8888/target/classes/META-INF/build-info.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-client9003/target/classes/META-INF/build-info.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-feign9061/target/classes/META-INF/build-info.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-ribbon9051/target/classes/META-INF/build-info.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server9002/target/classes/META-INF/build-info.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-zuul8080/target/classes/META-INF/build-info.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-mongodb-server8668/target/classes/META-INF/build-info.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wupeng/cloud/provider/payment8001/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wupeng/cloud/provider/payment8001/controller/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wupeng/cloud/provider/payment8001/interceptor/PassInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wupeng/cloud/provider/payment8001/interceptor/PassInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/META-INF/build-info.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/wupeng/cloud/provider/payment8001/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/wupeng/cloud/provider/payment8001/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/wupeng/cloud/provider/payment8001/interceptor/PassInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/wupeng/cloud/provider/payment8001/interceptor/PassInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/payment8001.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/payment8001.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-quzrta-server8777/target/classes/META-INF/build-info.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-rabbitmq-server5673/target/classes/META-INF/build-info.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-rabbitmq-server5673/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-rabbitmq-server5673/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-zipkin-admin-client9085/target/classes/META-INF/build-info.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-zipkin-admin-server9084/target/classes/META-INF/build-info.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-zipkin-admin/target/classes/META-INF/build-info.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/build-info.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -472,7 +435,7 @@
       <workItem from="1586809998623" duration="649000" />
       <workItem from="1586832725769" duration="411000" />
       <workItem from="1586833207514" duration="7841000" />
-      <workItem from="1586843098911" duration="3145000" />
+      <workItem from="1586843098911" duration="3998000" />
     </task>
     <task id="LOCAL-00001" summary="cloud Project">
       <created>1583679403896</created>
@@ -803,7 +766,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586808411686</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="最新版的有点迷啊">
+      <created>1586849088404</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1586849088404</updated>
+    </task>
+    <task id="LOCAL-00049" summary="add controller and wx 验证服务器">
+      <created>1586849184718</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1586849184718</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -822,8 +799,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add static  resources" />
-    <MESSAGE value="add  订单  限时活动" />
     <MESSAGE value="update index html&#10;add  layui template" />
     <MESSAGE value="update index html&#10;add  bootstrap template" />
     <MESSAGE value="add  support rabbitmq &#10;update  static  templates" />
@@ -847,7 +822,9 @@
     <MESSAGE value="add redis" />
     <MESSAGE value="添加说明" />
     <MESSAGE value="idea2020.1测试git" />
-    <option name="LAST_COMMIT_MESSAGE" value="idea2020.1测试git" />
+    <MESSAGE value="最新版的有点迷啊" />
+    <MESSAGE value="add controller and wx 验证服务器" />
+    <option name="LAST_COMMIT_MESSAGE" value="add controller and wx 验证服务器" />
   </component>
   <component name="WindowStateProjectService">
     <state x="723" y="126" width="472" height="411" key="#Notifications" timestamp="1586809452370">
@@ -922,10 +899,14 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="39" y="16" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1586847860334" />
-    <state x="337" y="102" key="Vcs.Push.Dialog.v2" timestamp="1586808417945">
+    <state x="571" y="264" key="VCS.EditChangelistDialog" timestamp="1586849137221">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="337" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1586808417945" />
+    <state x="571" y="264" key="VCS.EditChangelistDialog/0.0.1366.738@0.0.1366.738" timestamp="1586849137221" />
+    <state x="337" y="102" key="Vcs.Push.Dialog.v2" timestamp="1586849203178">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="337" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1586849203178" />
     <state x="476" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586807407580">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

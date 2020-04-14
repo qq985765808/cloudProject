@@ -38,7 +38,7 @@ public  class PassInterceptor implements HandlerInterceptor{
     public  boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
             throws Exception {
         String url = request.getRequestURI();
-        log.info("请求路径为："+url);
+        log.info("请求路径为：{}",url);
         if(url!=null ){
             try{
                 if( passInterceptor.redisService.get("userLogin").toString() == null){
