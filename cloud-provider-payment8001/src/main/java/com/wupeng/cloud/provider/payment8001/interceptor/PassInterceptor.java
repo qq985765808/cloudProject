@@ -54,6 +54,7 @@ public  class PassInterceptor implements HandlerInterceptor{
                 return  false;
             }
         }
+        //response.sendRedirect("/index/verify_wx_token");
         return true;
     }
 
