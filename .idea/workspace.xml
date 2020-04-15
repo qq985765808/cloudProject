@@ -19,8 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf49b8c3-d035-418d-93c0-ff481e393ff9" name="Default Changelist" comment="commit  git  不需要提交的目录文件">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="cf49b8c3-d035-418d-93c0-ff481e393ff9" name="Default Changelist" comment="add  support redis by zset">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-redis-server8558/src/main/java/com/wupeng/cloud/redis/server8558/service/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-redis-server8558/src/main/java/com/wupeng/cloud/redis/server8558/service/RedisService.java" afterDir="false" />
@@ -437,14 +436,7 @@
       <workItem from="1586832725769" duration="411000" />
       <workItem from="1586833207514" duration="7841000" />
       <workItem from="1586843098911" duration="4718000" />
-      <workItem from="1586905496102" duration="4246000" />
-    </task>
-    <task id="LOCAL-00002" summary="add  zuul">
-      <created>1583681725197</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1583681725197</updated>
+      <workItem from="1586905496102" duration="6571000" />
     </task>
     <task id="LOCAL-00003" summary="add  logging  config">
       <created>1583682602402</created>
@@ -782,7 +774,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586849846482</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="add  support redis by zset">
+      <created>1586910597628</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1586910597629</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -801,7 +800,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update index html&#10;add  bootstrap template" />
     <MESSAGE value="add  support rabbitmq &#10;update  static  templates" />
     <MESSAGE value="add  support cloud-euerke-rabbitmq" />
     <MESSAGE value="add  rabbitmq  service  support  API" />
@@ -826,7 +824,8 @@
     <MESSAGE value="最新版的有点迷啊" />
     <MESSAGE value="add controller and wx 验证服务器" />
     <MESSAGE value="commit  git  不需要提交的目录文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit  git  不需要提交的目录文件" />
+    <MESSAGE value="add  support redis by zset" />
+    <option name="LAST_COMMIT_MESSAGE" value="add  support redis by zset" />
   </component>
   <component name="WindowStateProjectService">
     <state x="723" y="126" width="472" height="411" key="#Notifications" timestamp="1586809452370">
@@ -905,10 +904,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="571" y="264" key="VCS.EditChangelistDialog/0.0.1366.738@0.0.1366.738" timestamp="1586849137221" />
-    <state x="337" y="102" key="Vcs.Push.Dialog.v2" timestamp="1586849847895">
+    <state x="337" y="102" key="Vcs.Push.Dialog.v2" timestamp="1586910600466">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="337" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1586849847895" />
+    <state x="337" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1586910600466" />
     <state x="476" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586807407580">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -917,6 +916,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="368" y="156" key="git4idea.merge.GitPullDialog/0.0.1366.738@0.0.1366.738" timestamp="1586807434644" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1586911530248">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1586911530248" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
