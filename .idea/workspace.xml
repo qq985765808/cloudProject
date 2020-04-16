@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf49b8c3-d035-418d-93c0-ff481e393ff9" name="Default Changelist" comment="add  support redis by list &#10;建议先从序列化了解">
+    <list default="true" id="cf49b8c3-d035-418d-93c0-ff481e393ff9" name="Default Changelist" comment="add  admin view html  and support mongodb&#10;代码细节优化了一下&#10;新增一个前端模板（layui min）开源项目可搜。">
       <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wupeng/cloud/provider/payment8001/config/MongoDbConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wupeng/cloud/provider/payment8001/controller/ViewController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wupeng/cloud/provider/payment8001/mongoDBEntity/SysMenu.java" afterDir="false" />
@@ -651,7 +651,7 @@
       <workItem from="1586916534177" duration="202000" />
       <workItem from="1586916798462" duration="9427000" />
       <workItem from="1586988163280" duration="6189000" />
-      <workItem from="1587010420272" duration="754000" />
+      <workItem from="1587010420272" duration="1366000" />
     </task>
     <task id="LOCAL-00004" summary="update  payment">
       <created>1583683094203</created>
@@ -1015,7 +1015,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add  support cloud-euerke-rabbitmq" />
     <MESSAGE value="add  rabbitmq  service  support  API" />
     <MESSAGE value="add  rabbitmq  support  ribbon RPC" />
     <MESSAGE value="test  support rabbitmq" />
@@ -1040,7 +1039,8 @@
     <MESSAGE value="commit  git  不需要提交的目录文件" />
     <MESSAGE value="add  support redis by zset" />
     <MESSAGE value="add  support redis by list &#10;建议先从序列化了解" />
-    <option name="LAST_COMMIT_MESSAGE" value="add  support redis by list &#10;建议先从序列化了解" />
+    <MESSAGE value="add  admin view html  and support mongodb&#10;代码细节优化了一下&#10;新增一个前端模板（layui min）开源项目可搜。" />
+    <option name="LAST_COMMIT_MESSAGE" value="add  admin view html  and support mongodb&#10;代码细节优化了一下&#10;新增一个前端模板（layui min）开源项目可搜。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="723" y="126" width="472" height="411" key="#Notifications" timestamp="1586992598914">
