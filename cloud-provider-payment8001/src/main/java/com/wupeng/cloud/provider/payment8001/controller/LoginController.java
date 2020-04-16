@@ -43,6 +43,12 @@ public class LoginController {
         return "main";
     }
 
+    @RequestMapping(value = "/adminMain")
+    public String adminMain(Model model){
+        model.addAttribute("username","吴鹏");
+        return "adminMain";
+    }
+
     @RequestMapping("/verify_wx_token")
     @ResponseBody
     public String verifyWXToken(HttpServletRequest request) throws AesException {

@@ -40,7 +40,7 @@ public  class PassInterceptor implements HandlerInterceptor{
         String url = request.getRequestURI();
         log.info("请求路径为：{}",url);
         if(url!=null ){
-            try{
+       /*     try{
                 if( passInterceptor.redisService.get("userLogin").toString() == null){
                     //response.sendRedirect("/project/index"); //war包版本的路径
                     response.sendRedirect("/index/login");
@@ -52,7 +52,7 @@ public  class PassInterceptor implements HandlerInterceptor{
                 //response.sendRedirect("/project/index");//war包版本的路径
                 response.sendRedirect("/index/login");
                 return  false;
-            }
+            }*/
         }
         //response.sendRedirect("/index/verify_wx_token");
         return true;

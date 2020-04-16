@@ -19,10 +19,236 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf49b8c3-d035-418d-93c0-ff481e393ff9" name="Default Changelist" comment="add  support redis by zset">
+    <list default="true" id="cf49b8c3-d035-418d-93c0-ff481e393ff9" name="Default Changelist" comment="add  support redis by list &#10;建议先从序列化了解">
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wupeng/cloud/provider/payment8001/config/MongoDbConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wupeng/cloud/provider/payment8001/controller/ViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wupeng/cloud/provider/payment8001/mongoDBEntity/SysMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wupeng/cloud/provider/payment8001/repository/SysMenuRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wupeng/cloud/provider/payment8001/service/SysMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wupeng/cloud/provider/payment8001/service/impl/SysMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wupeng/cloud/provider/payment8001/vo/MenuVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/api/clear.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/api/init.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/api/menus.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/api/table.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/api/tableSelect.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/api/upload.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/css/layuimini.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/css/public.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/css/themes/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/images/captcha.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/images/donate_qrcode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/images/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/js/lay-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/js/lay-module/echarts/echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/js/lay-module/echarts/echartsTheme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/js/lay-module/iconPicker/iconPickerFa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/js/lay-module/layarea/layarea.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/js/lay-module/layuimini/miniAdmin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/js/lay-module/layuimini/miniMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/js/lay-module/layuimini/miniTab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/js/lay-module/layuimini/miniTheme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/js/lay-module/layuimini/miniTongji.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/js/lay-module/step-lay/step.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/js/lay-module/step-lay/step.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/js/lay-module/tableSelect/tableSelect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/js/lay-module/treetable-lay/treetable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/js/lay-module/treetable-lay/treetable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/js/lay-module/wangEditor/fonts/w-e-icon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/js/lay-module/wangEditor/wangEditor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/js/lay-module/wangEditor/wangEditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/js/lay-module/wangEditor/wangEditor.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/js/lay-module/wangEditor/wangEditor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/js/lay-module/wangEditor/wangEditor.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/jq-module/jquery.particleground.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/jq-module/paigusu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/jq-module/zyupload/zyupload-1.0.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/jq-module/zyupload/zyupload-1.0.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/jquery-3.4.1/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/font/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/lay/modules/transfer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/lib/layui-v2.5.5/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/page/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/page/area.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/page/button.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/page/color-select.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/page/editor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/page/form-step.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/page/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/page/icon-picker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/page/icon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/page/layer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/page/login-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/page/login-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/page/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/page/setting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/page/table-select.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/page/table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/page/table/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/page/table/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/page/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/page/user-password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/page/user-setting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/page/welcome-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/page/welcome-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static/page/welcome-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/templates/adminMain.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wupeng/cloud/provider/payment8001/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wupeng/cloud/provider/payment8001/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wupeng/cloud/provider/payment8001/interceptor/PassInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wupeng/cloud/provider/payment8001/interceptor/PassInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wupeng/cloud/provider/payment8001/vo/Temp.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wupeng/cloud/provider/payment8001/vo/MenuKey.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-redis-server8558/src/main/java/com/wupeng/cloud/redis/server8558/service/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-redis-server8558/src/main/java/com/wupeng/cloud/redis/server8558/service/RedisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/wupeng/cloud/provider/payment8001/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/wupeng/cloud/provider/payment8001/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/wupeng/cloud/provider/payment8001/interceptor/PassInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/wupeng/cloud/provider/payment8001/interceptor/PassInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-quzrta-server8777/src/main/java/com/wupeng/cloud/quartz/server8777/service/ActivityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-quzrta-server8777/src/main/java/com/wupeng/cloud/quartz/server8777/service/ActivityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-redis-server8558/target/classes/com/wupeng/cloud/redis/server8558/service/RedisService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-redis-server8558/target/classes/com/wupeng/cloud/redis/server8558/service/RedisService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,21 +272,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Receive</find>
-      <find>.js</find>
-      <find>chunk</find>
-      <find>j</find>
-      <find>site-menu</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-    <dirStrings>
-      <dir>G:\workSpace\cloudproject\cloud-provider-payment8001</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="F:\Program Files\Git\bin\git.exe" />
@@ -93,31 +304,31 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586662197959" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/static" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2816092" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\workSpace\cloudproject\cloud-provider-payment8001\src\main\resources\static" />
-      <recent name="G:\workSpace\cloudproject\cloud-provider-payment8001\src\main\resources\static\images" />
-      <recent name="G:\workSpace\cloudproject\cloud-provider-payment8001\src\main\resources" />
-      <recent name="G:\workSpace\cloudproject\cloud-provider-payment8001\src\main\resources\static\js" />
-      <recent name="G:\workSpace\cloudproject\cloud-provider-payment8001\src\main\resources\static\css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\workSpace\cloudproject\cloud-provider-payment8001\src\main\resources\static" />
       <recent name="G:\workSpace\cloudproject\cloud-provider-payment8001\src\main\resources\static\less\main" />
       <recent name="G:\workSpace\cloudproject\cloud-provider-payment8001\src\main\resources\static\images\icon" />
       <recent name="G:\workSpace\cloudproject\cloud-provider-payment8001\src\main\resources\static\images" />
       <recent name="G:\workSpace\cloudproject\cloud-provider-payment8001\src\main\resources\static\font" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\workSpace\cloudproject\cloud-provider-payment8001\src\main\resources\static" />
+      <recent name="G:\workSpace\cloudproject\cloud-provider-payment8001\src\main\resources\static\css" />
+      <recent name="G:\workSpace\cloudproject\cloud-provider-payment8001\src\main\resources\static\images" />
+      <recent name="G:\workSpace\cloudproject\cloud-provider-payment8001\src\main\resources\static\js" />
+      <recent name="G:\workSpace\cloudproject\cloud-provider-payment8001\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -436,14 +647,11 @@
       <workItem from="1586832725769" duration="411000" />
       <workItem from="1586833207514" duration="7841000" />
       <workItem from="1586843098911" duration="4718000" />
-      <workItem from="1586905496102" duration="6571000" />
-    </task>
-    <task id="LOCAL-00003" summary="add  logging  config">
-      <created>1583682602402</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1583682602402</updated>
+      <workItem from="1586905496102" duration="7975000" />
+      <workItem from="1586916534177" duration="202000" />
+      <workItem from="1586916798462" duration="9427000" />
+      <workItem from="1586988163280" duration="6189000" />
+      <workItem from="1587010420272" duration="754000" />
     </task>
     <task id="LOCAL-00004" summary="update  payment">
       <created>1583683094203</created>
@@ -781,7 +989,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586910597629</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="add  support redis by list &#10;建议先从序列化了解">
+      <created>1586913040862</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1586913040863</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -800,7 +1015,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add  support rabbitmq &#10;update  static  templates" />
     <MESSAGE value="add  support cloud-euerke-rabbitmq" />
     <MESSAGE value="add  rabbitmq  service  support  API" />
     <MESSAGE value="add  rabbitmq  support  ribbon RPC" />
@@ -825,89 +1039,90 @@
     <MESSAGE value="add controller and wx 验证服务器" />
     <MESSAGE value="commit  git  不需要提交的目录文件" />
     <MESSAGE value="add  support redis by zset" />
-    <option name="LAST_COMMIT_MESSAGE" value="add  support redis by zset" />
+    <MESSAGE value="add  support redis by list &#10;建议先从序列化了解" />
+    <option name="LAST_COMMIT_MESSAGE" value="add  support redis by list &#10;建议先从序列化了解" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="723" y="126" width="472" height="411" key="#Notifications" timestamp="1586809452370">
+    <state x="723" y="126" width="472" height="411" key="#Notifications" timestamp="1586992598914">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="723" y="126" width="472" height="411" key="#Notifications/0.0.1366.738@0.0.1366.738" timestamp="1586809452370" />
+    <state x="723" y="126" width="472" height="411" key="#Notifications/0.0.1366.738@0.0.1366.738" timestamp="1586992598914" />
     <state x="282" y="185" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1586909972075">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="282" y="185" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1366.738@0.0.1366.738" timestamp="1586909972075" />
-    <state x="197" y="48" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586843481234">
+    <state x="197" y="48" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586993436468">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="197" y="48" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1586843481234" />
-    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1586847818281">
+    <state x="197" y="48" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1586993436468" />
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1586993507035">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1586847818281" />
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1586993507035" />
     <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1586804821522">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1586804821522" />
-    <state width="1050" height="182" key="GridCell.Tab.0.bottom" timestamp="1586866407994">
+    <state width="1016" height="213" key="GridCell.Tab.0.bottom" timestamp="1587010675941">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1050" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1586866407994" />
-    <state width="1050" height="182" key="GridCell.Tab.0.center" timestamp="1586866407993">
+    <state width="1016" height="213" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1587010675941" />
+    <state width="1016" height="213" key="GridCell.Tab.0.center" timestamp="1587010675941">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1050" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1586866407993" />
-    <state width="1050" height="182" key="GridCell.Tab.0.left" timestamp="1586866407993">
+    <state width="1016" height="213" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1587010675941" />
+    <state width="1016" height="213" key="GridCell.Tab.0.left" timestamp="1587010675941">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1050" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1586866407993" />
-    <state width="1050" height="182" key="GridCell.Tab.0.right" timestamp="1586866407994">
+    <state width="1016" height="213" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1587010675941" />
+    <state width="1016" height="213" key="GridCell.Tab.0.right" timestamp="1587010675941">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1050" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1586866407994" />
-    <state width="1050" height="182" key="GridCell.Tab.1.bottom" timestamp="1586866407994">
+    <state width="1016" height="213" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1587010675941" />
+    <state width="1016" height="204" key="GridCell.Tab.1.bottom" timestamp="1586994400476">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1050" height="182" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1586866407994" />
-    <state width="1050" height="182" key="GridCell.Tab.1.center" timestamp="1586866407994">
+    <state width="1016" height="204" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1586994400476" />
+    <state width="1016" height="204" key="GridCell.Tab.1.center" timestamp="1586994400476">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1050" height="182" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1586866407994" />
-    <state width="1050" height="182" key="GridCell.Tab.1.left" timestamp="1586866407994">
+    <state width="1016" height="204" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1586994400476" />
+    <state width="1016" height="204" key="GridCell.Tab.1.left" timestamp="1586994400475">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1050" height="182" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1586866407994" />
-    <state width="1050" height="182" key="GridCell.Tab.1.right" timestamp="1586866407994">
+    <state width="1016" height="204" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1586994400475" />
+    <state width="1016" height="204" key="GridCell.Tab.1.right" timestamp="1586994400476">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1050" height="182" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1586866407994" />
-    <state width="1050" height="182" key="GridCell.Tab.2.bottom" timestamp="1586866407994">
+    <state width="1016" height="204" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1586994400476" />
+    <state width="1016" height="204" key="GridCell.Tab.2.bottom" timestamp="1586994400476">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1050" height="182" key="GridCell.Tab.2.bottom/0.0.1366.738@0.0.1366.738" timestamp="1586866407994" />
-    <state width="1050" height="182" key="GridCell.Tab.2.center" timestamp="1586866407994">
+    <state width="1016" height="204" key="GridCell.Tab.2.bottom/0.0.1366.738@0.0.1366.738" timestamp="1586994400476" />
+    <state width="1016" height="204" key="GridCell.Tab.2.center" timestamp="1586994400476">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1050" height="182" key="GridCell.Tab.2.center/0.0.1366.738@0.0.1366.738" timestamp="1586866407994" />
-    <state width="1050" height="182" key="GridCell.Tab.2.left" timestamp="1586866407994">
+    <state width="1016" height="204" key="GridCell.Tab.2.center/0.0.1366.738@0.0.1366.738" timestamp="1586994400476" />
+    <state width="1016" height="204" key="GridCell.Tab.2.left" timestamp="1586994400476">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1050" height="182" key="GridCell.Tab.2.left/0.0.1366.738@0.0.1366.738" timestamp="1586866407994" />
-    <state width="1050" height="182" key="GridCell.Tab.2.right" timestamp="1586866407994">
+    <state width="1016" height="204" key="GridCell.Tab.2.left/0.0.1366.738@0.0.1366.738" timestamp="1586994400476" />
+    <state width="1016" height="204" key="GridCell.Tab.2.right" timestamp="1586994400476">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1050" height="182" key="GridCell.Tab.2.right/0.0.1366.738@0.0.1366.738" timestamp="1586866407994" />
-    <state x="184" y="13" key="SettingsEditor" timestamp="1586909973128">
+    <state width="1016" height="204" key="GridCell.Tab.2.right/0.0.1366.738@0.0.1366.738" timestamp="1586994400476" />
+    <state x="68" y="3" key="SettingsEditor" timestamp="1586988872825">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="184" y="13" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1586909973128" />
+    <state x="68" y="3" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1586988872825" />
     <state x="571" y="264" key="VCS.EditChangelistDialog" timestamp="1586849137221">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="571" y="264" key="VCS.EditChangelistDialog/0.0.1366.738@0.0.1366.738" timestamp="1586849137221" />
-    <state x="337" y="102" key="Vcs.Push.Dialog.v2" timestamp="1586910600466">
+    <state x="337" y="102" key="Vcs.Push.Dialog.v2" timestamp="1586913042369">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="337" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1586910600466" />
+    <state x="337" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1586913042369" />
     <state x="476" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586807407580">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -926,7 +1141,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wupeng/cloud/provider/payment8001/controller/LoginController.java</url>
-          <line>52</line>
+          <line>58</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
